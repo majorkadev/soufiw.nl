@@ -1,0 +1,2111 @@
+{
+  "all_strings": [
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "/rt_FullFrameFB",
+      "len": 15,
+      "pair_a_va": "0x413C7785",
+      "pair_b_va": "0x413C9431",
+      "method": "multi_2_pairs",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "?ther textures",
+      "len": 14,
+      "pair_a_va": "0x413C7E09",
+      "pair_b_va": "0x413C9431",
+      "method": "multi_2_pairs",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "\"enderTargets",
+      "len": 13,
+      "pair_a_va": "0x413C76BA",
+      "pair_b_va": "0x413C9431",
+      "method": "multi_2_pairs",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "dev/glowJTPt",
+      "len": 12,
+      "pair_a_va": "0x413C77D1",
+      "pair_b_va": "0x413C9274",
+      "method": "multi_2_pairs",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "/rt_SmallFB0",
+      "len": 12,
+      "pair_a_va": "0x413C79FE",
+      "pair_b_va": "0x413C9431",
+      "method": "multi_2_pairs",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "/rt_SmallFB1",
+      "len": 12,
+      "pair_a_va": "0x413C7C60",
+      "pair_b_va": "0x413C9431",
+      "method": "multi_2_pairs",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "dev/glow|XB)",
+      "len": 12,
+      "pair_a_va": "0x413C7E61",
+      "pair_b_va": "0x413C86B4",
+      "method": "multi_2_pairs",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "*4#]eFB",
+      "len": 7,
+      "pair_a_va": "0x413C77AB",
+      "pair_b_va": "0x413C7A24",
+      "method": "single_pair",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "*4#\\eFB",
+      "len": 7,
+      "pair_a_va": "0x413C77AB",
+      "pair_b_va": "0x413C7C86",
+      "method": "single_pair",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "FrameFB",
+      "len": 7,
+      "pair_a_va": "0x413C77AB",
+      "pair_b_va": "0x413C945D",
+      "method": "single_pair",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "3$.Er_x",
+      "len": 7,
+      "pair_a_va": "0x413C7A24",
+      "pair_b_va": "0x413C8AA2",
+      "method": "single_pair",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "3$.Er_y",
+      "len": 7,
+      "pair_a_va": "0x413C7A24",
+      "pair_b_va": "0x413C8D24",
+      "method": "single_pair",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "3$.Dr_x",
+      "len": 7,
+      "pair_a_va": "0x413C7C86",
+      "pair_b_va": "0x413C8AA2",
+      "method": "single_pair",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "3$.Dr_y",
+      "len": 7,
+      "pair_a_va": "0x413C7C86",
+      "pair_b_va": "0x413C8D24",
+      "method": "single_pair",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "_blur_x",
+      "len": 7,
+      "pair_a_va": "0x413C8AA2",
+      "pair_b_va": "0x413C945D",
+      "method": "single_pair",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "_blur_y",
+      "len": 7,
+      "pair_a_va": "0x413C8D24",
+      "pair_b_va": "0x413C945D",
+      "method": "single_pair",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "3%-\\or",
+      "len": 6,
+      "pair_a_va": "0x413C7A24",
+      "pair_b_va": "0x413C7EF4",
+      "method": "single_pair",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "34+]3d",
+      "len": 6,
+      "pair_a_va": "0x413C7A24",
+      "pair_b_va": "0x413C815A",
+      "method": "single_pair",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "3%-]or",
+      "len": 6,
+      "pair_a_va": "0x413C7C86",
+      "pair_b_va": "0x413C7EF4",
+      "method": "single_pair",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "34+\\3d",
+      "len": 6,
+      "pair_a_va": "0x413C7C86",
+      "pair_b_va": "0x413C815A",
+      "method": "single_pair",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "xtures",
+      "len": 6,
+      "pair_a_va": "0x413C7E35",
+      "pair_b_va": "0x413C945D",
+      "method": "single_pair",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "_color",
+      "len": 6,
+      "pair_a_va": "0x413C7EF4",
+      "pair_b_va": "0x413C945D",
+      "method": "single_pair",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "_rim3d",
+      "len": 6,
+      "pair_a_va": "0x413C815A",
+      "pair_b_va": "0x413C945D",
+      "method": "single_pair",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "params",
+      "len": 6,
+      "pair_a_va": "0x413C98F5",
+      "pair_b_va": "0x413C99F8",
+      "method": "single_pair",
+      "group": "[+0x24/+0x20]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "reason",
+      "len": 6,
+      "pair_a_va": "0x413C98F5",
+      "pair_b_va": "0x413C9AAB",
+      "method": "single_pair",
+      "group": "[+0x24/+0x20]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "rgets",
+      "len": 5,
+      "pair_a_va": "0x413C76E6",
+      "pair_b_va": "0x413C945D",
+      "method": "single_pair",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "JTPt",
+      "len": 4,
+      "pair_a_va": "0x413C76BA",
+      "pair_b_va": "0x413C92A0",
+      "method": "single_pair",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "lFB0",
+      "len": 4,
+      "pair_a_va": "0x413C7A24",
+      "pair_b_va": "0x413C945D",
+      "method": "single_pair",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "lFB1",
+      "len": 4,
+      "pair_a_va": "0x413C7C86",
+      "pair_b_va": "0x413C945D",
+      "method": "single_pair",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "|XB)",
+      "len": 4,
+      "pair_a_va": "0x413C7ECE",
+      "pair_b_va": "0x413C86E0",
+      "method": "single_pair",
+      "group": "[+0xA4/+0xA0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "type",
+      "len": 4,
+      "pair_a_va": "0x413C98C2",
+      "pair_b_va": "0x413C98F5",
+      "method": "single_pair",
+      "group": "[+0x24/+0x20]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "dump",
+      "len": 4,
+      "pair_a_va": "0x413C9C40",
+      "pair_b_va": "0x413C9CB0",
+      "method": "single_pair",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "scr",
+      "len": 3,
+      "pair_a_va": "0x413C98F5",
+      "pair_b_va": "0x413CA05B",
+      "method": "single_pair",
+      "group": "[+0x24/+0x20]"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "string": "ini",
+      "len": 3,
+      "pair_a_va": "0x413C833B",
+      "pair_b_va": "0x413C9567",
+      "method": "single_pair",
+      "group": "[+0x1D4/+0x1D0]"
+    },
+    {
+      "func": "0x4156C3C0",
+      "sites": [
+        "0x4156E6EF"
+      ],
+      "string": "weapon_",
+      "len": 7,
+      "pair_a_va": "0x4156C5CE",
+      "pair_b_va": "0x4156C602",
+      "method": "single_pair",
+      "group": "[+0x14/+0x10]"
+    },
+    {
+      "func": "0x4156C3C0",
+      "sites": [
+        "0x4156E6EF"
+      ],
+      "string": "d_name",
+      "len": 6,
+      "pair_a_va": "0x4156F0CF",
+      "pair_b_va": "0x4156F2C4",
+      "method": "single_pair",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x4156C3C0",
+      "sites": [
+        "0x4156E6EF"
+      ],
+      "string": "rarity",
+      "len": 6,
+      "pair_a_va": "0x4156F0E7",
+      "pair_b_va": "0x4156F70C",
+      "method": "single_pair",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x4156C3C0",
+      "sites": [
+        "0x4156E6EF"
+      ],
+      "string": "item_",
+      "len": 5,
+      "pair_a_va": "0x4156C602",
+      "pair_b_va": "0x4156C80D",
+      "method": "single_pair",
+      "group": "[+0x14/+0x10]"
+    },
+    {
+      "func": "0x4156C3C0",
+      "sites": [
+        "0x4156E6EF"
+      ],
+      "string": "index",
+      "len": 5,
+      "pair_a_va": "0x4156F0B7",
+      "pair_b_va": "0x4156F0E7",
+      "method": "single_pair",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x4156C3C0",
+      "sites": [
+        "0x4156E6EF"
+      ],
+      "string": "image",
+      "len": 5,
+      "pair_a_va": "0x4156F0E7",
+      "pair_b_va": "0x4156F89B",
+      "method": "single_pair",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x4156C3C0",
+      "sites": [
+        "0x4156E6EF"
+      ],
+      "string": ".svg",
+      "len": 4,
+      "pair_a_va": "0x4156CB2E",
+      "pair_b_va": "0x4156CBB3",
+      "method": "single_pair",
+      "group": "[+0x1B4/+0x1B0]"
+    },
+    {
+      "func": "0x4156C3C0",
+      "sites": [
+        "0x4156E6EF"
+      ],
+      "string": "^svg",
+      "len": 4,
+      "pair_a_va": "0x4156CBB3",
+      "pair_b_va": "0x4156D8CB",
+      "method": "single_pair",
+      "group": "[+0x1B4/+0x1B0]"
+    },
+    {
+      "func": "0x4156C3C0",
+      "sites": [
+        "0x4156E6EF"
+      ],
+      "string": "name",
+      "len": 4,
+      "pair_a_va": "0x4156F0E7",
+      "pair_b_va": "0x4156F1B9",
+      "method": "single_pair",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x4156C3C0",
+      "sites": [
+        "0x4156E6EF"
+      ],
+      "string": "loot",
+      "len": 4,
+      "pair_a_va": "0x4156F0E7",
+      "pair_b_va": "0x4156F3A6",
+      "method": "single_pair",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "bGMPdse error.",
+      "len": 14,
+      "pair_a_va": "0x415816D8",
+      "pair_b_va": "0x41581FF9",
+      "method": "multi_2_pairs",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "bGMSdse error.",
+      "len": 14,
+      "pair_a_va": "0x41581846",
+      "pair_b_va": "0x41581FF9",
+      "method": "multi_2_pairs",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "bGMRdse error.",
+      "len": 14,
+      "pair_a_va": "0x41581A16",
+      "pair_b_va": "0x41581FF9",
+      "method": "multi_2_pairs",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "bGM]dse error.",
+      "len": 14,
+      "pair_a_va": "0x41581ADC",
+      "pair_b_va": "0x41581FF9",
+      "method": "multi_2_pairs",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "bGM\\dse error.",
+      "len": 14,
+      "pair_a_va": "0x41581BF1",
+      "pair_b_va": "0x41581FF9",
+      "method": "multi_2_pairs",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "g@XPfid HWID.",
+      "len": 13,
+      "pair_a_va": "0x4157F719",
+      "pair_b_va": "0x41581E49",
+      "method": "multi_2_pairs",
+      "group": "[+0x1F4/+0x1F0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "g@XSfid HWID.",
+      "len": 13,
+      "pair_a_va": "0x4157F7F6",
+      "pair_b_va": "0x41581E49",
+      "method": "multi_2_pairs",
+      "group": "[+0x1F4/+0x1F0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "g@XS]cd HWID.",
+      "len": 13,
+      "pair_a_va": "0x4157FF5F",
+      "pair_b_va": "0x41581E49",
+      "method": "multi_2_pairs",
+      "group": "[+0x1F4/+0x1F0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "g@XRfid HWID.",
+      "len": 13,
+      "pair_a_va": "0x41580057",
+      "pair_b_va": "0x41581E49",
+      "method": "multi_2_pairs",
+      "group": "[+0x1F4/+0x1F0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "-_|alid HWID.",
+      "len": 13,
+      "pair_a_va": "0x41580182",
+      "pair_b_va": "0x41581E49",
+      "method": "multi_2_pairs",
+      "group": "[+0x1F4/+0x1F0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "-\\|alid HWID.",
+      "len": 13,
+      "pair_a_va": "0x41580324",
+      "pair_b_va": "0x41581E49",
+      "method": "multi_2_pairs",
+      "group": "[+0x1F4/+0x1F0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "-]|alid HWID.",
+      "len": 13,
+      "pair_a_va": "0x41580491",
+      "pair_b_va": "0x41581E49",
+      "method": "multi_2_pairs",
+      "group": "[+0x1F4/+0x1F0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "-Z|alid HWID.",
+      "len": 13,
+      "pair_a_va": "0x41580609",
+      "pair_b_va": "0x41581E49",
+      "method": "multi_2_pairs",
+      "group": "[+0x1F4/+0x1F0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "g@XUfid HWID.",
+      "len": 13,
+      "pair_a_va": "0x415815CE",
+      "pair_b_va": "0x41581E49",
+      "method": "multi_2_pairs",
+      "group": "[+0x1F4/+0x1F0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "g@XTfid HWID.",
+      "len": 13,
+      "pair_a_va": "0x415816D8",
+      "pair_b_va": "0x415820EC",
+      "method": "multi_2_pairs",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "g@XWfid HWID.",
+      "len": 13,
+      "pair_a_va": "0x41581846",
+      "pair_b_va": "0x415820EC",
+      "method": "multi_2_pairs",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "g@XVfid HWID.",
+      "len": 13,
+      "pair_a_va": "0x41581A16",
+      "pair_b_va": "0x415820EC",
+      "method": "multi_2_pairs",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "g@XYfid HWID.",
+      "len": 13,
+      "pair_a_va": "0x41581ADC",
+      "pair_b_va": "0x415820EC",
+      "method": "multi_2_pairs",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "g@XXfid HWID.",
+      "len": 13,
+      "pair_a_va": "0x41581BF1",
+      "pair_b_va": "0x415820EC",
+      "method": "multi_2_pairs",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "k\\\\^x [2]",
+      "len": 9,
+      "pair_a_va": "0x4157F719",
+      "pair_b_va": "0x41581D7E",
+      "method": "multi_2_pairs",
+      "group": "[+0x1F4/+0x1F0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "k\\\\]x [2]",
+      "len": 9,
+      "pair_a_va": "0x4157F7F6",
+      "pair_b_va": "0x41581D7E",
+      "method": "multi_2_pairs",
+      "group": "[+0x1F4/+0x1F0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "k\\\\]C*[2]",
+      "len": 9,
+      "pair_a_va": "0x4157FF5F",
+      "pair_b_va": "0x41581D7E",
+      "method": "multi_2_pairs",
+      "group": "[+0x1F4/+0x1F0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "k\\\\\\x [2]",
+      "len": 9,
+      "pair_a_va": "0x41580057",
+      "pair_b_va": "0x41581D7E",
+      "method": "multi_2_pairs",
+      "group": "[+0x1F4/+0x1F0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "!Cxor [2]",
+      "len": 9,
+      "pair_a_va": "0x41580182",
+      "pair_b_va": "0x41581D7E",
+      "method": "multi_2_pairs",
+      "group": "[+0x1F4/+0x1F0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "!@xor [2]",
+      "len": 9,
+      "pair_a_va": "0x41580324",
+      "pair_b_va": "0x41581D7E",
+      "method": "multi_2_pairs",
+      "group": "[+0x1F4/+0x1F0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "!Axor [2]",
+      "len": 9,
+      "pair_a_va": "0x41580491",
+      "pair_b_va": "0x41581D7E",
+      "method": "multi_2_pairs",
+      "group": "[+0x1F4/+0x1F0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "!Fxor [2]",
+      "len": 9,
+      "pair_a_va": "0x41580609",
+      "pair_b_va": "0x41581D7E",
+      "method": "multi_2_pairs",
+      "group": "[+0x1F4/+0x1F0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "k\\\\[x [2]",
+      "len": 9,
+      "pair_a_va": "0x415815CE",
+      "pair_b_va": "0x41581D7E",
+      "method": "multi_2_pairs",
+      "group": "[+0x1F4/+0x1F0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "/x32dbg.6",
+      "len": 9,
+      "pair_a_va": "0x415807AA",
+      "pair_b_va": "0x41581F90",
+      "method": "multi_2_pairs",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "k\\\\Zx [2]",
+      "len": 9,
+      "pair_a_va": "0x415816D8",
+      "pair_b_va": "0x41581F08",
+      "method": "multi_2_pairs",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "k\\\\Yx [2]",
+      "len": 9,
+      "pair_a_va": "0x41581846",
+      "pair_b_va": "0x41581F08",
+      "method": "multi_2_pairs",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "k\\\\Xx [2]",
+      "len": 9,
+      "pair_a_va": "0x41581A16",
+      "pair_b_va": "0x41581F08",
+      "method": "multi_2_pairs",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "k\\\\Wx [2]",
+      "len": 9,
+      "pair_a_va": "0x41581ADC",
+      "pair_b_va": "0x41581F08",
+      "method": "multi_2_pairs",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "k\\\\Vx [2]",
+      "len": 9,
+      "pair_a_va": "0x41581BF1",
+      "pair_b_va": "0x41581F08",
+      "method": "multi_2_pairs",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "^O\\Tgs",
+      "len": 6,
+      "pair_a_va": "0x4157FA86",
+      "pair_b_va": "0x415816D8",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "^O\\Wgs",
+      "len": 6,
+      "pair_a_va": "0x4157FA86",
+      "pair_b_va": "0x41581846",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "^O\\Vgs",
+      "len": 6,
+      "pair_a_va": "0x4157FA86",
+      "pair_b_va": "0x41581A16",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "^O\\Ygs",
+      "len": 6,
+      "pair_a_va": "0x4157FA86",
+      "pair_b_va": "0x41581ADC",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "^O\\Xgs",
+      "len": 6,
+      "pair_a_va": "0x4157FA86",
+      "pair_b_va": "0x41581BF1",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "error.",
+      "len": 6,
+      "pair_a_va": "0x4157FAAC",
+      "pair_b_va": "0x4158201E",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "8rror.",
+      "len": 6,
+      "pair_a_va": "0x41581F2E",
+      "pair_b_va": "0x4158201E",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "-%;+\\.",
+      "len": 6,
+      "pair_a_va": "0x4158201E",
+      "pair_b_va": "0x41582111",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "HWID.",
+      "len": 5,
+      "pair_a_va": "0x4157F66B",
+      "pair_b_va": "0x41581E6F",
+      "method": "single_pair",
+      "group": "[+0x1F4/+0x1F0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "hash2",
+      "len": 5,
+      "pair_a_va": "0x4157FAD2",
+      "pair_b_va": "0x4157FE09",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "Error",
+      "len": 5,
+      "pair_a_va": "0x4157FAD2",
+      "pair_b_va": "0x41581F44",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "FO]]8",
+      "len": 5,
+      "pair_a_va": "0x4157FE09",
+      "pair_b_va": "0x415816D8",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "FO]^8",
+      "len": 5,
+      "pair_a_va": "0x4157FE09",
+      "pair_b_va": "0x41581846",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "FO]_8",
+      "len": 5,
+      "pair_a_va": "0x4157FE09",
+      "pair_b_va": "0x41581A16",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "FO]P8",
+      "len": 5,
+      "pair_a_va": "0x4157FE09",
+      "pair_b_va": "0x41581ADC",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "FO]Q8",
+      "len": 5,
+      "pair_a_va": "0x4157FE09",
+      "pair_b_va": "0x41581BF1",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "!9 D.",
+      "len": 5,
+      "pair_a_va": "0x415807D6",
+      "pair_b_va": "0x41582111",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "k\\\\Zx",
+      "len": 5,
+      "pair_a_va": "0x415816D8",
+      "pair_b_va": "0x41581F44",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "k\\\\Yx",
+      "len": 5,
+      "pair_a_va": "0x41581846",
+      "pair_b_va": "0x41581F44",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "k\\\\Xx",
+      "len": 5,
+      "pair_a_va": "0x41581A16",
+      "pair_b_va": "0x41581F44",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "k\\\\Wx",
+      "len": 5,
+      "pair_a_va": "0x41581ADC",
+      "pair_b_va": "0x41581F44",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "k\\\\Vx",
+      "len": 5,
+      "pair_a_va": "0x41581BF1",
+      "pair_b_va": "0x41581F44",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "hash",
+      "len": 4,
+      "pair_a_va": "0x4157FAD2",
+      "pair_b_va": "0x4157FB5A",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x4157F5F0",
+      "sites": [
+        "0x4158003D",
+        "0x4158141D"
+      ],
+      "string": "4ni",
+      "len": 3,
+      "pair_a_va": "0x415807D6",
+      "pair_b_va": "0x41581F2E",
+      "method": "single_pair",
+      "group": "[+0xD4/+0xD0]"
+    },
+    {
+      "func": "0x41582C00",
+      "sites": [
+        "0x41583ED5",
+        "0x41584D8F"
+      ],
+      "string": "/x32dbg.ini",
+      "len": 11,
+      "pair_a_va": "0x4158333F",
+      "pair_b_va": "0x41583A64",
+      "method": "multi_2_pairs",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x41582C00",
+      "sites": [
+        "0x41583ED5",
+        "0x41584D8F"
+      ],
+      "string": "KI92dbg.ini",
+      "len": 11,
+      "method": "cross_group",
+      "groupA": "[+0x1A4/+0x1A0]",
+      "groupB": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x415890C0",
+      "sites": [
+        "0x4158910D"
+      ],
+      "string": "Message",
+      "len": 7,
+      "pair_a_va": "0x41589748",
+      "pair_b_va": "0x41589938",
+      "method": "single_pair",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x415890C0",
+      "sites": [
+        "0x4158910D"
+      ],
+      "string": "Sender",
+      "len": 6,
+      "pair_a_va": "0x41589748",
+      "pair_b_va": "0x4158AA8E",
+      "method": "single_pair",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x415890C0",
+      "sites": [
+        "0x4158910D"
+      ],
+      "string": "Type",
+      "len": 4,
+      "pair_a_va": "0x41589718",
+      "pair_b_va": "0x41589748",
+      "method": "single_pair",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x415890C0",
+      "sites": [
+        "0x4158910D"
+      ],
+      "string": "Time",
+      "len": 4,
+      "pair_a_va": "0x4158A6DC",
+      "pair_b_va": "0x4158A728",
+      "method": "single_pair",
+      "group": "[+0x84/+0x80]"
+    },
+    {
+      "func": "0x415890C0",
+      "sites": [
+        "0x4158910D"
+      ],
+      "string": "Msg",
+      "len": 3,
+      "pair_a_va": "0x41589748",
+      "pair_b_va": "0x4158A8A2",
+      "method": "single_pair",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x415C01D0",
+      "sites": [
+        "0x415C2C2B"
+      ],
+      "string": "+etVisualAngles",
+      "len": 15,
+      "pair_a_va": "0x415C09C3",
+      "pair_b_va": "0x415C1720",
+      "method": "multi_2_pairs",
+      "group": "[+0xE4/+0xE0]"
+    },
+    {
+      "func": "0x415C01D0",
+      "sites": [
+        "0x415C2C2B"
+      ],
+      "string": "#etVisualAngles",
+      "len": 15,
+      "pair_a_va": "0x415C1720",
+      "pair_b_va": "0x415C2EE4",
+      "method": "multi_2_pairs",
+      "group": "[+0xE4/+0xE0]"
+    },
+    {
+      "func": "0x415C01D0",
+      "sites": [
+        "0x415C2C2B"
+      ],
+      "string": "0-/'asePlayer",
+      "len": 13,
+      "pair_a_va": "0x415C089A",
+      "pair_b_va": "0x415C165B",
+      "method": "multi_2_pairs",
+      "group": "[+0xE4/+0xE0]"
+    },
+    {
+      "func": "0x415C01D0",
+      "sites": [
+        "0x415C2C2B"
+      ],
+      "string": "0-/'aseEntity",
+      "len": 13,
+      "pair_a_va": "0x415C089A",
+      "pair_b_va": "0x415C259E",
+      "method": "multi_2_pairs",
+      "group": "[+0xE4/+0xE0]"
+    },
+    {
+      "func": "0x415C01D0",
+      "sites": [
+        "0x415C2C2B"
+      ],
+      "string": "(T_BasePlayer",
+      "len": 13,
+      "pair_a_va": "0x415C09C3",
+      "pair_b_va": "0x415C165B",
+      "method": "multi_2_pairs",
+      "group": "[+0xE4/+0xE0]"
+    },
+    {
+      "func": "0x415C01D0",
+      "sites": [
+        "0x415C2C2B"
+      ],
+      "string": "(T_BaseEntity",
+      "len": 13,
+      "pair_a_va": "0x415C09C3",
+      "pair_b_va": "0x415C259E",
+      "method": "multi_2_pairs",
+      "group": "[+0xE4/+0xE0]"
+    },
+    {
+      "func": "0x415C01D0",
+      "sites": [
+        "0x415C2C2B"
+      ],
+      "string": "77-BasePlayer",
+      "len": 13,
+      "pair_a_va": "0x415C165B",
+      "pair_b_va": "0x415C2AE4",
+      "method": "multi_2_pairs",
+      "group": "[+0xE4/+0xE0]"
+    },
+    {
+      "func": "0x415C01D0",
+      "sites": [
+        "0x415C2C2B"
+      ],
+      "string": " T_BasePlayer",
+      "len": 13,
+      "pair_a_va": "0x415C165B",
+      "pair_b_va": "0x415C2EE4",
+      "method": "multi_2_pairs",
+      "group": "[+0xE4/+0xE0]"
+    },
+    {
+      "func": "0x415C01D0",
+      "sites": [
+        "0x415C2C2B"
+      ],
+      "string": "77-BaseEntity",
+      "len": 13,
+      "pair_a_va": "0x415C259E",
+      "pair_b_va": "0x415C2AE4",
+      "method": "multi_2_pairs",
+      "group": "[+0xE4/+0xE0]"
+    },
+    {
+      "func": "0x415C01D0",
+      "sites": [
+        "0x415C2C2B"
+      ],
+      "string": " T_BaseEntity",
+      "len": 13,
+      "pair_a_va": "0x415C259E",
+      "pair_b_va": "0x415C2EE4",
+      "method": "multi_2_pairs",
+      "group": "[+0xE4/+0xE0]"
+    },
+    {
+      "func": "0x415C01D0",
+      "sites": [
+        "0x415C2C2B"
+      ],
+      "string": "lAngles",
+      "len": 7,
+      "pair_a_va": "0x415C08C6",
+      "pair_b_va": "0x415C1746",
+      "method": "single_pair",
+      "group": "[+0xE4/+0xE0]"
+    },
+    {
+      "func": "0x415C01D0",
+      "sites": [
+        "0x415C2C2B"
+      ],
+      "string": "layer",
+      "len": 5,
+      "pair_a_va": "0x415C08C6",
+      "pair_b_va": "0x415C1687",
+      "method": "single_pair",
+      "group": "[+0xE4/+0xE0]"
+    },
+    {
+      "func": "0x415C01D0",
+      "sites": [
+        "0x415C2C2B"
+      ],
+      "string": "ntity",
+      "len": 5,
+      "pair_a_va": "0x415C08C6",
+      "pair_b_va": "0x415C25CA",
+      "method": "single_pair",
+      "group": "[+0xE4/+0xE0]"
+    },
+    {
+      "func": "0x415C01D0",
+      "sites": [
+        "0x415C2C2B"
+      ],
+      "string": "der",
+      "len": 3,
+      "pair_a_va": "0x415C08C6",
+      "pair_b_va": "0x415C24E7",
+      "method": "single_pair",
+      "group": "[+0xE4/+0xE0]"
+    },
+    {
+      "func": "0x415C01D0",
+      "sites": [
+        "0x415C2C2B"
+      ],
+      "string": "nl ",
+      "len": 3,
+      "pair_a_va": "0x415C08F2",
+      "pair_b_va": "0x415C12A4",
+      "method": "single_pair",
+      "group": "[+0xE4/+0xE0]"
+    },
+    {
+      "func": "0x415C3B63",
+      "sites": [
+        "0x415C471B"
+      ],
+      "string": "weapons",
+      "len": 7,
+      "pair_a_va": "0x415C670F",
+      "pair_b_va": "0x415C6805",
+      "method": "single_pair",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x415C3B63",
+      "sites": [
+        "0x415C471B"
+      ],
+      "string": "player",
+      "len": 6,
+      "pair_a_va": "0x415C66DF",
+      "pair_b_va": "0x415C670F",
+      "method": "single_pair",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x415C3B63",
+      "sites": [
+        "0x415C471B"
+      ],
+      "string": "skybox",
+      "len": 6,
+      "pair_a_va": "0x415C670F",
+      "pair_b_va": "0x415C6772",
+      "method": "single_pair",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x415ECC45",
+      "sites": [
+        "0x415ED7FD"
+      ],
+      "string": "& 7O= 0x",
+      "len": 8,
+      "pair_a_va": "0x415ECE69",
+      "pair_b_va": "0x415EDAB5",
+      "method": "multi_2_pairs",
+      "group": "[+0x24/+0x20]"
+    },
+    {
+      "func": "0x415ECC45",
+      "sites": [
+        "0x415ED7FD"
+      ],
+      "string": "&7.O= 0x",
+      "len": 8,
+      "pair_a_va": "0x415ECF47",
+      "pair_b_va": "0x415EDAB5",
+      "method": "multi_2_pairs",
+      "group": "[+0x24/+0x20]"
+    },
+    {
+      "func": "0x415ECC45",
+      "sites": [
+        "0x415ED7FD"
+      ],
+      "string": "& .O= 0x",
+      "len": 8,
+      "pair_a_va": "0x415ED025",
+      "pair_b_va": "0x415EDAB5",
+      "method": "multi_2_pairs",
+      "group": "[+0x24/+0x20]"
+    },
+    {
+      "func": "0x415ECC45",
+      "sites": [
+        "0x415ED7FD"
+      ],
+      "string": "&1?O= 0x",
+      "len": 8,
+      "pair_a_va": "0x415ED103",
+      "pair_b_va": "0x415EDAB5",
+      "method": "multi_2_pairs",
+      "group": "[+0x24/+0x20]"
+    },
+    {
+      "func": "0x415ECC45",
+      "sites": [
+        "0x415ED7FD"
+      ],
+      "string": "&7?O= 0x",
+      "len": 8,
+      "pair_a_va": "0x415ED1E1",
+      "pair_b_va": "0x415EDAB5",
+      "method": "multi_2_pairs",
+      "group": "[+0x24/+0x20]"
+    },
+    {
+      "func": "0x415ECC45",
+      "sites": [
+        "0x415ED7FD"
+      ],
+      "string": "&0?O= 0x",
+      "len": 8,
+      "pair_a_va": "0x415ED2BF",
+      "pair_b_va": "0x415EDAB5",
+      "method": "multi_2_pairs",
+      "group": "[+0x24/+0x20]"
+    },
+    {
+      "func": "0x415ECC45",
+      "sites": [
+        "0x415ED7FD"
+      ],
+      "string": "&2?O= 0x",
+      "len": 8,
+      "pair_a_va": "0x415ED39D",
+      "pair_b_va": "0x415EDAB5",
+      "method": "multi_2_pairs",
+      "group": "[+0x24/+0x20]"
+    },
+    {
+      "func": "0x415ECC45",
+      "sites": [
+        "0x415ED7FD"
+      ],
+      "string": "&17O= 0x",
+      "len": 8,
+      "pair_a_va": "0x415ED47B",
+      "pair_b_va": "0x415EDAB5",
+      "method": "multi_2_pairs",
+      "group": "[+0x24/+0x20]"
+    },
+    {
+      "func": "0x415ECC45",
+      "sites": [
+        "0x415ED7FD"
+      ],
+      "string": "&build=",
+      "len": 7,
+      "pair_a_va": "0x415ECCDE",
+      "pair_b_va": "0x415ED8F0",
+      "method": "single_pair",
+      "group": "[+0x24/+0x20]"
+    },
+    {
+      "func": "0x415ECC45",
+      "sites": [
+        "0x415ED7FD"
+      ],
+      "string": "&cheat=",
+      "len": 7,
+      "pair_a_va": "0x415ECCDE",
+      "pair_b_va": "0x415EDB62",
+      "method": "single_pair",
+      "group": "[+0x24/+0x20]"
+    },
+    {
+      "func": "0x415ECC45",
+      "sites": [
+        "0x415ED7FD"
+      ],
+      "string": "&cont=",
+      "len": 6,
+      "pair_a_va": "0x415ECCDE",
+      "pair_b_va": "0x415EDA05",
+      "method": "single_pair",
+      "group": "[+0x24/+0x20]"
+    },
+    {
+      "func": "0x415ECC45",
+      "sites": [
+        "0x415ED7FD"
+      ],
+      "string": "token=",
+      "len": 6,
+      "pair_a_va": "0x415ECCDE",
+      "pair_b_va": "0x415EDC28",
+      "method": "single_pair",
+      "group": "[+0x24/+0x20]"
+    },
+    {
+      "func": "0x415ECC45",
+      "sites": [
+        "0x415ED7FD"
+      ],
+      "string": "&dump=",
+      "len": 6,
+      "pair_a_va": "0x415ECCDE",
+      "pair_b_va": "0x415EE171",
+      "method": "single_pair",
+      "group": "[+0x24/+0x20]"
+    },
+    {
+      "func": "0x415ECC45",
+      "sites": [
+        "0x415ED7FD"
+      ],
+      "string": "eax=",
+      "len": 4,
+      "pair_a_va": "0x415ECC9E",
+      "pair_b_va": "0x415ECCDE",
+      "method": "single_pair",
+      "group": "[+0x24/+0x20]"
+    },
+    {
+      "func": "0x415ECC45",
+      "sites": [
+        "0x415ED7FD"
+      ],
+      "string": "ebp=",
+      "len": 4,
+      "pair_a_va": "0x415ECCDE",
+      "pair_b_va": "0x415ECD7C",
+      "method": "single_pair",
+      "group": "[+0x24/+0x20]"
+    },
+    {
+      "func": "0x415ECC45",
+      "sites": [
+        "0x415ED7FD"
+      ],
+      "string": "&a=0",
+      "len": 4,
+      "pair_a_va": "0x415ECCDE",
+      "pair_b_va": "0x415ED808",
+      "method": "single_pair",
+      "group": "[+0x24/+0x20]"
+    },
+    {
+      "func": "0x415ECC45",
+      "sites": [
+        "0x415ED7FD"
+      ],
+      "string": "csgo",
+      "len": 4,
+      "pair_a_va": "0x415ECCDE",
+      "pair_b_va": "0x415EDAB5",
+      "method": "single_pair",
+      "group": "[+0x24/+0x20]"
+    },
+    {
+      "func": "0x4160B570",
+      "sites": [
+        "0x4160C82E"
+      ],
+      "string": "block",
+      "len": 5,
+      "pair_a_va": "0x4160BD26",
+      "pair_b_va": "0x4160E36F",
+      "method": "single_pair",
+      "group": "[+0x14/+0x10]"
+    },
+    {
+      "func": "0x41616C00",
+      "sites": [
+        "0x4161888F",
+        "0x41619813"
+      ],
+      "string": "(Xiense error.",
+      "len": 14,
+      "pair_a_va": "0x41617362",
+      "pair_b_va": "0x4161A5EC",
+      "method": "multi_2_pairs",
+      "group": "[+0x534/+0x530]"
+    },
+    {
+      "func": "0x41616C00",
+      "sites": [
+        "0x4161888F",
+        "0x41619813"
+      ],
+      "string": "([iense error.",
+      "len": 14,
+      "pair_a_va": "0x41617524",
+      "pair_b_va": "0x4161A5EC",
+      "method": "multi_2_pairs",
+      "group": "[+0x534/+0x530]"
+    },
+    {
+      "func": "0x41616C00",
+      "sites": [
+        "0x4161888F",
+        "0x41619813"
+      ],
+      "string": "(Ziense error.",
+      "len": 14,
+      "pair_a_va": "0x416176AF",
+      "pair_b_va": "0x4161A5EC",
+      "method": "multi_2_pairs",
+      "group": "[+0x534/+0x530]"
+    },
+    {
+      "func": "0x41616C00",
+      "sites": [
+        "0x4161888F",
+        "0x41619813"
+      ],
+      "string": "(]iense error.",
+      "len": 14,
+      "pair_a_va": "0x4161783F",
+      "pair_b_va": "0x4161A5EC",
+      "method": "multi_2_pairs",
+      "group": "[+0x534/+0x530]"
+    },
+    {
+      "func": "0x41616C00",
+      "sites": [
+        "0x4161888F",
+        "0x41619813"
+      ],
+      "string": "!Cxor",
+      "len": 5,
+      "pair_a_va": "0x41617362",
+      "pair_b_va": "0x4161A509",
+      "method": "single_pair",
+      "group": "[+0x534/+0x530]"
+    },
+    {
+      "func": "0x41616C00",
+      "sites": [
+        "0x4161888F",
+        "0x41619813"
+      ],
+      "string": "!@xor",
+      "len": 5,
+      "pair_a_va": "0x41617524",
+      "pair_b_va": "0x4161A509",
+      "method": "single_pair",
+      "group": "[+0x534/+0x530]"
+    },
+    {
+      "func": "0x41616C00",
+      "sites": [
+        "0x4161888F",
+        "0x41619813"
+      ],
+      "string": "!Axor",
+      "len": 5,
+      "pair_a_va": "0x416176AF",
+      "pair_b_va": "0x4161A509",
+      "method": "single_pair",
+      "group": "[+0x534/+0x530]"
+    },
+    {
+      "func": "0x41616C00",
+      "sites": [
+        "0x4161888F",
+        "0x41619813"
+      ],
+      "string": "!Fxor",
+      "len": 5,
+      "pair_a_va": "0x4161783F",
+      "pair_b_va": "0x4161A509",
+      "method": "single_pair",
+      "group": "[+0x534/+0x530]"
+    },
+    {
+      "func": "0x41616C00",
+      "sites": [
+        "0x4161888F",
+        "0x41619813"
+      ],
+      "string": "2.0",
+      "len": 3,
+      "pair_a_va": "0x41616F7F",
+      "pair_b_va": "0x41616FD7",
+      "method": "single_pair",
+      "group": "[+0x304/+0x300]"
+    },
+    {
+      "func": "0x417EBAA0",
+      "sites": [
+        "0x417EBE08",
+        "0x417EBECA"
+      ],
+      "string": "group",
+      "len": 5,
+      "pair_a_va": "0x417ED9DF",
+      "pair_b_va": "0x417EDA0F",
+      "method": "single_pair",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x41B63BB0",
+      "sites": [
+        "0x41B63D60"
+      ],
+      "string": "isionChangeOrigin",
+      "len": 17,
+      "pair_a_va": "0x41B658C4",
+      "pair_b_va": "0x41B65CCA",
+      "method": "multi_3_pairs",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x41B63BB0",
+      "sites": [
+        "0x41B63D60"
+      ],
+      "string": "isionChangeTime",
+      "len": 15,
+      "pair_a_va": "0x41B658C4",
+      "pair_b_va": "0x41B65FA0",
+      "method": "multi_2_pairs",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x41B63BB0",
+      "sites": [
+        "0x41B63D60"
+      ],
+      "string": "ngeOrigin",
+      "len": 9,
+      "pair_a_va": "0x41B658DC",
+      "pair_b_va": "0x41B65CE2",
+      "method": "multi_2_pairs",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x41B63BB0",
+      "sites": [
+        "0x41B63D60"
+      ],
+      "string": "ngeTime",
+      "len": 7,
+      "pair_a_va": "0x41B658DC",
+      "pair_b_va": "0x41B65FB8",
+      "method": "single_pair",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x41B63BB0",
+      "sites": [
+        "0x41B63D60"
+      ],
+      "string": "H,Bl",
+      "len": 4,
+      "pair_a_va": "0x41B65BB8",
+      "pair_b_va": "0x41B65DB0",
+      "method": "single_pair",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x41B63BB0",
+      "sites": [
+        "0x41B63D60"
+      ],
+      "string": "ped",
+      "len": 3,
+      "pair_a_va": "0x41B658C4",
+      "pair_b_va": "0x41B65BD0",
+      "method": "single_pair",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x41B63BB0",
+      "sites": [
+        "0x41B63D60"
+      ],
+      "string": "yer",
+      "len": 3,
+      "pair_a_va": "0x41B658C4",
+      "pair_b_va": "0x41B65C4E",
+      "method": "single_pair",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x41B63BB0",
+      "sites": [
+        "0x41B63D60"
+      ],
+      "string": "ion",
+      "len": 3,
+      "pair_a_va": "0x41B658C4",
+      "pair_b_va": "0x41B661AE",
+      "method": "single_pair",
+      "group": "[+0x4/+0x0]"
+    },
+    {
+      "func": "0x41BC5690",
+      "sites": [
+        "0x41BC66F9"
+      ],
+      "string": "data",
+      "len": 4,
+      "pair_a_va": "0x41BC5F1E",
+      "pair_b_va": "0x41BC6E87",
+      "method": "single_pair",
+      "group": "[+0x64/+0x60]"
+    }
+  ],
+  "routes": [
+    "/rt_FullFrameFB",
+    "?ther textures",
+    "dev/glowJTPt",
+    "/rt_SmallFB0",
+    "/rt_SmallFB1",
+    "dev/glow|XB)",
+    "/x32dbg.6",
+    "/x32dbg.ini",
+    "0-/'asePlayer",
+    "0-/'aseEntity",
+    "&1?O= 0x",
+    "&7?O= 0x",
+    "&0?O= 0x",
+    "&2?O= 0x",
+    "token="
+  ],
+  "fields": [
+    "FrameFB",
+    "_blur_x",
+    "_blur_y",
+    "xtures",
+    "_color",
+    "_rim3d",
+    "params",
+    "reason",
+    "rgets",
+    "JTPt",
+    "lFB0",
+    "lFB1",
+    "type",
+    "dump",
+    "scr",
+    "ini",
+    "weapon_",
+    "d_name",
+    "rarity",
+    "item_",
+    "index",
+    "image",
+    "name",
+    "loot",
+    "hash2",
+    "Error",
+    "hash",
+    "4ni",
+    "Message",
+    "Sender",
+    "Type",
+    "Time",
+    "Msg",
+    "lAngles",
+    "layer",
+    "ntity",
+    "der",
+    "weapons",
+    "player",
+    "skybox",
+    "csgo",
+    "block",
+    "group",
+    "isionChangeOrigin",
+    "isionChangeTime",
+    "ngeOrigin",
+    "ngeTime",
+    "ped",
+    "yer",
+    "ion",
+    "data"
+  ]
+}

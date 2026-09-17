@@ -1,0 +1,14 @@
+C:\Users\majorkadev\Desktop\rust-server 27042026\target\release\deps\serde-37e7b7a9aafb427c.d: C:\Users\majorkadev\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\lib.rs C:\Users\majorkadev\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\integer128.rs C:\Users\majorkadev\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\mod.rs C:\Users\majorkadev\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\de.rs C:\Users\majorkadev\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\ser.rs C:\Users\majorkadev\Desktop\rust-server\ 27042026\target\release\build\serde-a46f284bb48d965d\out/private.rs
+
+C:\Users\majorkadev\Desktop\rust-server 27042026\target\release\deps\libserde-37e7b7a9aafb427c.rlib: C:\Users\majorkadev\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\lib.rs C:\Users\majorkadev\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\integer128.rs C:\Users\majorkadev\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\mod.rs C:\Users\majorkadev\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\de.rs C:\Users\majorkadev\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\ser.rs C:\Users\majorkadev\Desktop\rust-server\ 27042026\target\release\build\serde-a46f284bb48d965d\out/private.rs
+
+C:\Users\majorkadev\Desktop\rust-server 27042026\target\release\deps\libserde-37e7b7a9aafb427c.rmeta: C:\Users\majorkadev\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\lib.rs C:\Users\majorkadev\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\integer128.rs C:\Users\majorkadev\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\mod.rs C:\Users\majorkadev\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\de.rs C:\Users\majorkadev\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\ser.rs C:\Users\majorkadev\Desktop\rust-server\ 27042026\target\release\build\serde-a46f284bb48d965d\out/private.rs
+
+C:\Users\majorkadev\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\lib.rs:
+C:\Users\majorkadev\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\integer128.rs:
+C:\Users\majorkadev\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\mod.rs:
+C:\Users\majorkadev\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\de.rs:
+C:\Users\majorkadev\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\ser.rs:
+C:\Users\majorkadev\Desktop\rust-server\ 27042026\target\release\build\serde-a46f284bb48d965d\out/private.rs:
+
+# env-dep:OUT_DIR=C:\\Users\\majorkadev\\Desktop\\rust-server 27042026\\target\\release\\build\\serde-a46f284bb48d965d\\out

@@ -1,0 +1,9 @@
+Stack should be big, tried with 0x40000 and esp +0x40000
+Entry is thread undefined.
+
+CRITICAL HWID Error on menu key.
+0x41DAC0C0 -> hook some func
+
+QWORD 0x3E7000EF0220008575E000098D3
+
+0x4320FBD1 -> Getadapters for vmp hwid.

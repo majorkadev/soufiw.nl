@@ -1,0 +1,1 @@
+{"rustc":6728126329342245928,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[11012460733644896800,"build_script_build",false,10440176981245261614]],"local":[{"RerunIfChanged":{"output":"release\\build\\nl_parser-777d390a39ad43be\\output","paths":["../module.fbs"]}}],"rustflags":[],"config":0,"compile_kind":0}

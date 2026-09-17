@@ -1,0 +1,22 @@
+this derivation will be built:
+  /nix/store/k2lhfrz9iiclnizqccpcyfirmsnpz89y-python3-3.13.11-env.drv
+building '/nix/store/k2lhfrz9iiclnizqccpcyfirmsnpz89y-python3-3.13.11-env.drv'...
+created 217 symlinks in user environment
+[Phase 4A] Loading binary...
+  Binary size: 55578624 bytes
+[Phase 4A] Setting up Unicorn emulator...
+  Mapped binary: 0x412A0000 - 0x447A1000
+  Stack: 0x7FF00000, ESP=0x7FFFF000
+Traceback (most recent call last):
+  File "/tmp/nl_analysis/scripts/phase4_emulate.py", line 462, in <module>
+    tracer.run()
+    ~~~~~~~~~~^^
+  File "/tmp/nl_analysis/scripts/phase4_emulate.py", line 439, in run
+    self.setup_unicorn()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/tmp/nl_analysis/scripts/phase4_emulate.py", line 128, in setup_unicorn
+    self.uc.mem_map(PEB_ADDR, 0x2000, UC_PROT_ALL)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/0kgi1yksq1cj71vv863lq1xf476v57zj-python3-3.13.11-env/lib/python3.13/site-packages/unicorn/unicorn_py3/unicorn.py", line 834, in mem_map
+    raise UcError(status)
+unicorn.unicorn_py3.unicorn.UcError: Invalid memory mapping (UC_ERR_MAP)

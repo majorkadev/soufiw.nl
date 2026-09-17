@@ -1,0 +1,189 @@
+{
+  "avatar": {
+    "size": 28823,
+    "format": "png",
+    "sha256": "10b0379709247b20238b8010914fd83aed86d0e7c7d82d9173839065d0ece566",
+    "saved_to": "/home/tox/Documents/neverlose_nonprod-master/analysis/output/crack_avatar.png"
+  },
+  "wss_passive_wait": [],
+  "wss_initial_messages": {
+    "empty_string": [
+      {
+        "type": "text",
+        "data": "{\"Type\":\"Auth\",\"Message\":\"fz8XfUGGBvylN7IW\",\"Data\":\"5aAxpFpna5QqvYMv\"}",
+        "size": 70,
+        "json": {
+          "Type": "Auth",
+          "Message": "fz8XfUGGBvylN7IW",
+          "Data": "5aAxpFpna5QqvYMv"
+        }
+      },
+      {
+        "type": "binary",
+        "size": 385360,
+        "sha256": "9c603b80f813250f32d798706a5ea3b081667de9e01cd0dedd54a5c8bc703cd6"
+      },
+      {
+        "type": "binary",
+        "size": 80,
+        "sha256": "cd574003432b454ae0d8f04a5ac8c12bc71868d6c3435d8fe9595f33d4f1eeeb"
+      }
+    ],
+    "empty_json": [
+      {
+        "type": "text",
+        "data": "{\"Type\":\"Auth\",\"Message\":\"fz8XfUGGBvylN7IW\",\"Data\":\"5aAxpFpna5QqvYMv\"}",
+        "size": 70,
+        "json": {
+          "Type": "Auth",
+          "Message": "fz8XfUGGBvylN7IW",
+          "Data": "5aAxpFpna5QqvYMv"
+        }
+      },
+      {
+        "type": "binary",
+        "size": 385360,
+        "sha256": "9c603b80f813250f32d798706a5ea3b081667de9e01cd0dedd54a5c8bc703cd6"
+      },
+      {
+        "type": "binary",
+        "size": 80,
+        "sha256": "cd574003432b454ae0d8f04a5ac8c12bc71868d6c3435d8fe9595f33d4f1eeeb"
+      }
+    ],
+    "type_neg1": [
+      {
+        "type": "text",
+        "data": "{\"Type\":\"Auth\",\"Message\":\"fz8XfUGGBvylN7IW\",\"Data\":\"5aAxpFpna5QqvYMv\"}",
+        "size": 70,
+        "json": {
+          "Type": "Auth",
+          "Message": "fz8XfUGGBvylN7IW",
+          "Data": "5aAxpFpna5QqvYMv"
+        }
+      },
+      {
+        "type": "binary",
+        "size": 385360,
+        "sha256": "9c603b80f813250f32d798706a5ea3b081667de9e01cd0dedd54a5c8bc703cd6"
+      },
+      {
+        "type": "binary",
+        "size": 80,
+        "sha256": "cd574003432b454ae0d8f04a5ac8c12bc71868d6c3435d8fe9595f33d4f1eeeb"
+      }
+    ],
+    "type_4_auth": [
+      {
+        "type": "text",
+        "data": "{\"Type\":\"Auth\",\"Message\":\"fz8XfUGGBvylN7IW\",\"Data\":\"5aAxpFpna5QqvYMv\"}",
+        "size": 70,
+        "json": {
+          "Type": "Auth",
+          "Message": "fz8XfUGGBvylN7IW",
+          "Data": "5aAxpFpna5QqvYMv"
+        }
+      },
+      {
+        "type": "binary",
+        "size": 385360,
+        "sha256": "9c603b80f813250f32d798706a5ea3b081667de9e01cd0dedd54a5c8bc703cd6"
+      },
+      {
+        "type": "binary",
+        "size": 80,
+        "sha256": "cd574003432b454ae0d8f04a5ac8c12bc71868d6c3435d8fe9595f33d4f1eeeb"
+      }
+    ],
+    "just_hello": [
+      {
+        "type": "text",
+        "data": "{\"Type\":\"Auth\",\"Message\":\"fz8XfUGGBvylN7IW\",\"Data\":\"5aAxpFpna5QqvYMv\"}",
+        "size": 70,
+        "json": {
+          "Type": "Auth",
+          "Message": "fz8XfUGGBvylN7IW",
+          "Data": "5aAxpFpna5QqvYMv"
+        }
+      },
+      {
+        "type": "binary",
+        "size": 385360,
+        "sha256": "9c603b80f813250f32d798706a5ea3b081667de9e01cd0dedd54a5c8bc703cd6"
+      },
+      {
+        "type": "binary",
+        "size": 80,
+        "sha256": "cd574003432b454ae0d8f04a5ac8c12bc71868d6c3435d8fe9595f33d4f1eeeb"
+      }
+    ],
+    "binary_zero": [
+      {
+        "type": "text",
+        "data": "{\"Type\":\"Auth\",\"Message\":\"fz8XfUGGBvylN7IW\",\"Data\":\"5aAxpFpna5QqvYMv\"}",
+        "size": 70,
+        "json": {
+          "Type": "Auth",
+          "Message": "fz8XfUGGBvylN7IW",
+          "Data": "5aAxpFpna5QqvYMv"
+        }
+      },
+      {
+        "type": "binary",
+        "size": 385360,
+        "sha256": "9c603b80f813250f32d798706a5ea3b081667de9e01cd0dedd54a5c8bc703cd6"
+      },
+      {
+        "type": "binary",
+        "size": 80,
+        "sha256": "cd574003432b454ae0d8f04a5ac8c12bc71868d6c3435d8fe9595f33d4f1eeeb"
+      }
+    ]
+  },
+  "wss_full_flow": {
+    "init_1": {
+      "type": "text",
+      "data": "{\"Type\":\"Auth\",\"Message\":\"fz8XfUGGBvylN7IW\",\"Data\":\"5aAxpFpna5QqvYMv\"}"
+    },
+    "init_2": {
+      "type": "binary",
+      "size": 385360,
+      "sha256": "9c603b80f813250f32d798706a5ea3b081667de9e01cd0dedd54a5c8bc703cd6"
+    },
+    "init_3": {
+      "type": "binary",
+      "size": 80,
+      "sha256": "cd574003432b454ae0d8f04a5ac8c12bc71868d6c3435d8fe9595f33d4f1eeeb"
+    },
+    "type_0": {
+      "timeout": true
+    },
+    "type_1": {
+      "timeout": true
+    },
+    "type_2": {
+      "timeout": true
+    },
+    "type_3": {
+      "timeout": true
+    },
+    "type_4": {
+      "timeout": true
+    },
+    "type_5": {
+      "timeout": true
+    },
+    "type_6": {
+      "timeout": true
+    },
+    "type_7": {
+      "timeout": true
+    },
+    "type_8": {
+      "timeout": true
+    },
+    "type_9": {
+      "timeout": true
+    }
+  }
+}

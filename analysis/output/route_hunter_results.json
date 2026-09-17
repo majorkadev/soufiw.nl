@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "elapsed_seconds": 214.6,
+    "functions_scanned": 14
+  },
+  "routes_by_function": {},
+  "unique_routes": [
+    "/api/config"
+  ],
+  "vtable_calls": [
+    {
+      "slot": 0,
+      "name": "MakeRequest",
+      "function": "vtable_site1_verify",
+      "return_to": "0x4158936B",
+      "route": "/api/config",
+      "route_size": 11,
+      "p3": 0,
+      "p4": 0
+    }
+  ],
+  "detected_strings": [],
+  "function_results": {
+    "func_0x413C75C0": {
+      "status": "completed",
+      "instructions": 2000000,
+      "detected_strings": [],
+      "mem_routes": [],
+      "variant": "default"
+    },
+    "func_0x4156C3C0": {
+      "status": "completed",
+      "instructions": 59,
+      "detected_strings": [],
+      "mem_routes": [],
+      "variant": "default"
+    },
+    "func_0x4157F5F0": {
+      "status": "completed",
+      "instructions": 2000000,
+      "detected_strings": [],
+      "mem_routes": [],
+      "variant": "default"
+    },
+    "func_0x41582C00": {
+      "status": "completed",
+      "instructions": 2000000,
+      "detected_strings": [],
+      "mem_routes": [],
+      "variant": "default"
+    },
+    "func_0x415890C0": {
+      "status": "completed",
+      "instructions": 2000000,
+      "detected_strings": [],
+      "mem_routes": [],
+      "variant": "default"
+    },
+    "func_0x415C01D0": {
+      "status": "completed",
+      "instructions": 2000000,
+      "detected_strings": [],
+      "mem_routes": [],
+      "variant": "default"
+    },
+    "func_0x4160B570": {
+      "status": "completed",
+      "instructions": 2000000,
+      "detected_strings": [],
+      "mem_routes": [],
+      "variant": "default"
+    },
+    "func_0x41616C00": {
+      "status": "completed",
+      "instructions": 2000000,
+      "detected_strings": [],
+      "mem_routes": [],
+      "variant": "default"
+    },
+    "func_0x417EBAA0": {
+      "status": "completed",
+      "instructions": 2000000,
+      "detected_strings": [],
+      "mem_routes": [],
+      "variant": "default"
+    },
+    "func_0x417F1FB0": {
+      "status": "completed",
+      "instructions": 2000000,
+      "detected_strings": [],
+      "mem_routes": [],
+      "variant": "default"
+    },
+    "func_0x41816160": {
+      "status": "completed",
+      "instructions": 2000000,
+      "detected_strings": [],
+      "mem_routes": [],
+      "variant": "default"
+    },
+    "func_0x41B63BB0": {
+      "status": "completed",
+      "instructions": 2000000,
+      "detected_strings": [],
+      "mem_routes": [],
+      "variant": "default"
+    },
+    "func_0x41BC5690": {
+      "status": "completed",
+      "instructions": 2000000,
+      "detected_strings": [],
+      "mem_routes": [],
+      "variant": "default"
+    },
+    "func_0x41BC6C10": {
+      "status": "completed",
+      "instructions": 2000000,
+      "detected_strings": [],
+      "mem_routes": [],
+      "variant": "default"
+    }
+  }
+}

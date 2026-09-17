@@ -1,0 +1,214 @@
+{
+  "routes": [
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "route": "dev/glow_color",
+      "enc_va": "0x413C7E61",
+      "key_va": "0x413C7ECE",
+      "n_enc": 2,
+      "n_key": 2,
+      "block_start": "0x413C7E09"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "route": "dev/glow_rim3d",
+      "enc_va": "0x413C80C7",
+      "key_va": "0x413C8134",
+      "n_enc": 2,
+      "n_key": 2,
+      "block_start": "0x413C806F"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "route": "dev/glow_edge_highlight",
+      "enc_va": "0x413C838E",
+      "key_va": "0x413C843E",
+      "n_enc": 4,
+      "n_key": 3,
+      "block_start": "0x413C82C3"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "route": "dev/glow_downsample",
+      "enc_va": "0x413C86B4",
+      "key_va": "0x413C8764",
+      "n_enc": 4,
+      "n_key": 3,
+      "block_start": "0x413C85E9"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "route": "dev/glow_blur_x",
+      "enc_va": "0x413C8A0F",
+      "key_va": "0x413C8A7C",
+      "n_enc": 2,
+      "n_key": 2,
+      "block_start": "0x413C89B7"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "route": "dev/glow_blur_y",
+      "enc_va": "0x413C8C91",
+      "key_va": "0x413C8CFE",
+      "n_enc": 2,
+      "n_key": 2,
+      "block_start": "0x413C8C39"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "route": "dev/halo_add_to_screen",
+      "enc_va": "0x413C8F67",
+      "key_va": "0x413C9017",
+      "n_enc": 4,
+      "n_key": 3,
+      "block_start": "0x413C8E9C"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "route": "/x32dbg.ini",
+      "enc_va": "0x413C9489",
+      "key_va": "0x413C953B",
+      "n_enc": 2,
+      "n_key": 2,
+      "block_start": "0x413C91A9"
+    },
+    {
+      "func": "0x413C75C0",
+      "sites": [
+        "0x413CA180"
+      ],
+      "route": "dev/glow_health_color",
+      "enc_va": "0x413C9274",
+      "key_va": "0x413C9324",
+      "n_enc": 4,
+      "n_key": 3,
+      "block_start": "0x413C91A9"
+    },
+    {
+      "func": "0x415890C0",
+      "sites": [
+        "0x4158910D"
+      ],
+      "route": "ze=100&token=",
+      "enc_va": "0x4158915E",
+      "key_va": "0x415891C4",
+      "n_enc": 4,
+      "n_key": 2,
+      "block_start": "0x415890E0"
+    },
+    {
+      "func": "0x415890C0",
+      "sites": [
+        "0x4158910D"
+      ],
+      "route": "vatar?size=100&token=",
+      "enc_va": "0x41589144",
+      "key_va": "0x415891AC",
+      "n_enc": 4,
+      "n_key": 3,
+      "block_start": "0x415890E0"
+    },
+    {
+      "func": "0x415890C0",
+      "sites": [
+        "0x4158910D"
+      ],
+      "route": "api/getavatar?size=100&token=",
+      "enc_va": "0x4158912A",
+      "key_va": "0x41589192",
+      "n_enc": 4,
+      "n_key": 4,
+      "block_start": "0x415890E0"
+    },
+    {
+      "func": "0x415ECC45",
+      "sites": [
+        "0x415ED7FD"
+      ],
+      "route": "&build=",
+      "enc_va": "0x415ED848",
+      "key_va": "0x415ED8F0",
+      "n_enc": 2,
+      "n_key": 2,
+      "block_start": "0x415ED808"
+    },
+    {
+      "func": "0x415ECC45",
+      "sites": [
+        "0x415ED7FD"
+      ],
+      "route": "&cheat=",
+      "enc_va": "0x415EDAF5",
+      "key_va": "0x415EDB62",
+      "n_enc": 2,
+      "n_key": 2,
+      "block_start": "0x415ED808"
+    },
+    {
+      "func": "0x415ECC45",
+      "sites": [
+        "0x415ED7FD"
+      ],
+      "route": "token=",
+      "enc_va": "0x415EDBA2",
+      "key_va": "0x415EDC28",
+      "n_enc": 2,
+      "n_key": 2,
+      "block_start": "0x415ED808"
+    },
+    {
+      "func": "0x415ECC45",
+      "sites": [
+        "0x415ED7FD"
+      ],
+      "route": "api/sendlog",
+      "enc_va": "0x415EE991",
+      "key_va": "0x415EE9E9",
+      "n_enc": 2,
+      "n_key": 2,
+      "block_start": "0x415EE991"
+    }
+  ],
+  "unique": [
+    "&build=",
+    "&cheat=",
+    "/x32dbg.ini",
+    "api/getavatar?size=100&token=",
+    "api/sendlog",
+    "dev/glow_blur_x",
+    "dev/glow_blur_y",
+    "dev/glow_color",
+    "dev/glow_downsample",
+    "dev/glow_edge_highlight",
+    "dev/glow_health_color",
+    "dev/glow_rim3d",
+    "dev/halo_add_to_screen",
+    "token=",
+    "vatar?size=100&token=",
+    "ze=100&token="
+  ]
+}

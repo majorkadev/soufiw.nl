@@ -1,0 +1,254 @@
+{
+  "server": "145.239.80.134",
+  "http_port": 30031,
+  "ws_port": 30030,
+  "http_probes": [],
+  "ws_probes": [],
+  "tls_info": {
+    "30030": {
+      "tls": true
+    }
+  },
+  "port_scan": {},
+  "ws_dump_files": [
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/001_s1_auth_test_sent_auth.txt",
+      "name": "001_s1_auth_test_sent_auth.txt",
+      "size": 50,
+      "type": "text",
+      "sha256": "27f0cafc2978b315a03ec20ad20d0ec3c7c4e054b23f35a0dcac024033d2ee51",
+      "content": "{\"params\":{\"hash\":\"test\",\"hash2\":\"test\"},\"type\":4}"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/002_s1_auth_test_recv_auth_r1.txt",
+      "name": "002_s1_auth_test_recv_auth_r1.txt",
+      "size": 70,
+      "type": "text",
+      "sha256": "183c27fdfe3f56cff6bc0f0ad20a84761af761ad0afa2dac88576994b13c4fda",
+      "content": "{\"Type\":\"Auth\",\"Message\":\"fz8XfUGGBvylN7IW\",\"Data\":\"5aAxpFpna5QqvYMv\"}"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/003_s1_auth_test_recv_auth_r2.bin",
+      "name": "003_s1_auth_test_recv_auth_r2.bin",
+      "size": 385360,
+      "type": "binary",
+      "sha256": "9c603b80f813250f32d798706a5ea3b081667de9e01cd0dedd54a5c8bc703cd6",
+      "hex_preview": "44abac1420b1d80f0e44736dbaf8397969ac8aa8cbe04e9fb4e445e9f8c0bf86ad7315299fdd20d65ff2fb367ba5a08fca45d06d9c5eb8192b93f8c6875c35c2583c55595c018e9fd20f300102633251a42982cf145a142ea6099f41212c7a6e8f4b9238a81e7c11ee1a1d0886c69333026f363a28283f1aef7bf0616565b4c6dee7537712782bdfddb10ebc9eccab5f6efb80815edcce0afc7ca8d4864d836d66737f250f9e2b4a50bcc768604d6415254244e177f86274a0dd2ed145659e522ce1609b5510c8311caef6f4734cd432e77ff3b860188af14565c29dc0fcff72be5279f8abaa3b5dbd232640e333f64e9c50c994d469ddff92394e8f25d2fba7"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/004_s1_auth_test_recv_auth_r3.bin",
+      "name": "004_s1_auth_test_recv_auth_r3.bin",
+      "size": 80,
+      "type": "binary",
+      "sha256": "cd574003432b454ae0d8f04a5ac8c12bc71868d6c3435d8fe9595f33d4f1eeeb",
+      "hex_preview": "f2bc8a7fe99e1f0137b2dd77ec025c6eb1f86b68bc828d50334ef22f4c3dd755ff39af83764b9fa61eef1c351de1459384b7d25890e894a967f5f4844ef9c254d6ae8558f04909bb76fe0649fffa38f3"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/005_s2_auth_real_sent_auth_real.txt",
+      "name": "005_s2_auth_real_sent_auth_real.txt",
+      "size": 142,
+      "type": "text",
+      "sha256": "598f781b83946e5ca40c7937141834d9338070ed36bd2a99d9314ff04a701907",
+      "content": "{\"params\":{\"hash\":\"N9xnoBk9JkbYQ66WTtgAAAAAAAD/AP8AeaCdFAAAAAA=\",\"hash2\":\"hKV0twE0V3XnSatdohvL8nJXRuIWjzJCUnQidy4ttcjiAa4N6nUi2Q==\"},\"type\":4}"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/006_s2_auth_real_recv_auth_real_r1.txt",
+      "name": "006_s2_auth_real_recv_auth_real_r1.txt",
+      "size": 70,
+      "type": "text",
+      "sha256": "183c27fdfe3f56cff6bc0f0ad20a84761af761ad0afa2dac88576994b13c4fda",
+      "content": "{\"Type\":\"Auth\",\"Message\":\"fz8XfUGGBvylN7IW\",\"Data\":\"5aAxpFpna5QqvYMv\"}"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/007_s2_auth_real_recv_auth_real_r2.bin",
+      "name": "007_s2_auth_real_recv_auth_real_r2.bin",
+      "size": 385360,
+      "type": "binary",
+      "sha256": "9c603b80f813250f32d798706a5ea3b081667de9e01cd0dedd54a5c8bc703cd6",
+      "hex_preview": "44abac1420b1d80f0e44736dbaf8397969ac8aa8cbe04e9fb4e445e9f8c0bf86ad7315299fdd20d65ff2fb367ba5a08fca45d06d9c5eb8192b93f8c6875c35c2583c55595c018e9fd20f300102633251a42982cf145a142ea6099f41212c7a6e8f4b9238a81e7c11ee1a1d0886c69333026f363a28283f1aef7bf0616565b4c6dee7537712782bdfddb10ebc9eccab5f6efb80815edcce0afc7ca8d4864d836d66737f250f9e2b4a50bcc768604d6415254244e177f86274a0dd2ed145659e522ce1609b5510c8311caef6f4734cd432e77ff3b860188af14565c29dc0fcff72be5279f8abaa3b5dbd232640e333f64e9c50c994d469ddff92394e8f25d2fba7"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/008_s2_auth_real_recv_auth_real_r3.bin",
+      "name": "008_s2_auth_real_recv_auth_real_r3.bin",
+      "size": 80,
+      "type": "binary",
+      "sha256": "cd574003432b454ae0d8f04a5ac8c12bc71868d6c3435d8fe9595f33d4f1eeeb",
+      "hex_preview": "f2bc8a7fe99e1f0137b2dd77ec025c6eb1f86b68bc828d50334ef22f4c3dd755ff39af83764b9fa61eef1c351de1459384b7d25890e894a967f5f4844ef9c254d6ae8558f04909bb76fe0649fffa38f3"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/009_s3_types_sent_t1.txt",
+      "name": "009_s3_types_sent_t1.txt",
+      "size": 10,
+      "type": "text",
+      "sha256": "e126f1dec85e7de6b6f24432180a115a86bdcbcbdbcc9a422a44fc913ad4cde8",
+      "content": "{\"type\":1}"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/010_s3_types_recv_t1_r1.txt",
+      "name": "010_s3_types_recv_t1_r1.txt",
+      "size": 70,
+      "type": "text",
+      "sha256": "183c27fdfe3f56cff6bc0f0ad20a84761af761ad0afa2dac88576994b13c4fda",
+      "content": "{\"Type\":\"Auth\",\"Message\":\"fz8XfUGGBvylN7IW\",\"Data\":\"5aAxpFpna5QqvYMv\"}"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/011_s3_types_recv_t1_r2.bin",
+      "name": "011_s3_types_recv_t1_r2.bin",
+      "size": 385360,
+      "type": "binary",
+      "sha256": "9c603b80f813250f32d798706a5ea3b081667de9e01cd0dedd54a5c8bc703cd6",
+      "hex_preview": "44abac1420b1d80f0e44736dbaf8397969ac8aa8cbe04e9fb4e445e9f8c0bf86ad7315299fdd20d65ff2fb367ba5a08fca45d06d9c5eb8192b93f8c6875c35c2583c55595c018e9fd20f300102633251a42982cf145a142ea6099f41212c7a6e8f4b9238a81e7c11ee1a1d0886c69333026f363a28283f1aef7bf0616565b4c6dee7537712782bdfddb10ebc9eccab5f6efb80815edcce0afc7ca8d4864d836d66737f250f9e2b4a50bcc768604d6415254244e177f86274a0dd2ed145659e522ce1609b5510c8311caef6f4734cd432e77ff3b860188af14565c29dc0fcff72be5279f8abaa3b5dbd232640e333f64e9c50c994d469ddff92394e8f25d2fba7"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/012_s3_types_recv_t1_r3.bin",
+      "name": "012_s3_types_recv_t1_r3.bin",
+      "size": 80,
+      "type": "binary",
+      "sha256": "cd574003432b454ae0d8f04a5ac8c12bc71868d6c3435d8fe9595f33d4f1eeeb",
+      "hex_preview": "f2bc8a7fe99e1f0137b2dd77ec025c6eb1f86b68bc828d50334ef22f4c3dd755ff39af83764b9fa61eef1c351de1459384b7d25890e894a967f5f4844ef9c254d6ae8558f04909bb76fe0649fffa38f3"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/013_s3_types_sent_t2.txt",
+      "name": "013_s3_types_sent_t2.txt",
+      "size": 10,
+      "type": "text",
+      "sha256": "b2d9a0a3071e733dceb3002a2e07088eec64dfb288d7f2284c7df7bc0cf63f36",
+      "content": "{\"type\":2}"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/014_s3_types_sent_t3.txt",
+      "name": "014_s3_types_sent_t3.txt",
+      "size": 10,
+      "type": "text",
+      "sha256": "909a40a34e6f466c46f9c8e23b521b9fe8ea228b7b22058c49a3bee3e9c347c4",
+      "content": "{\"type\":3}"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/015_s3_types_sent_t5.txt",
+      "name": "015_s3_types_sent_t5.txt",
+      "size": 10,
+      "type": "text",
+      "sha256": "3a310a06f9efe3e1265cdf9a49e66b52527c12d8b14128f4787c5119186ef35a",
+      "content": "{\"type\":5}"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/016_s4_post_auth_sent_auth.txt",
+      "name": "016_s4_post_auth_sent_auth.txt",
+      "size": 50,
+      "type": "text",
+      "sha256": "27f0cafc2978b315a03ec20ad20d0ec3c7c4e054b23f35a0dcac024033d2ee51",
+      "content": "{\"params\":{\"hash\":\"test\",\"hash2\":\"test\"},\"type\":4}"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/017_s4_post_auth_recv_auth_r1.txt",
+      "name": "017_s4_post_auth_recv_auth_r1.txt",
+      "size": 70,
+      "type": "text",
+      "sha256": "183c27fdfe3f56cff6bc0f0ad20a84761af761ad0afa2dac88576994b13c4fda",
+      "content": "{\"Type\":\"Auth\",\"Message\":\"fz8XfUGGBvylN7IW\",\"Data\":\"5aAxpFpna5QqvYMv\"}"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/018_s4_post_auth_recv_auth_r2.bin",
+      "name": "018_s4_post_auth_recv_auth_r2.bin",
+      "size": 385360,
+      "type": "binary",
+      "sha256": "9c603b80f813250f32d798706a5ea3b081667de9e01cd0dedd54a5c8bc703cd6",
+      "hex_preview": "44abac1420b1d80f0e44736dbaf8397969ac8aa8cbe04e9fb4e445e9f8c0bf86ad7315299fdd20d65ff2fb367ba5a08fca45d06d9c5eb8192b93f8c6875c35c2583c55595c018e9fd20f300102633251a42982cf145a142ea6099f41212c7a6e8f4b9238a81e7c11ee1a1d0886c69333026f363a28283f1aef7bf0616565b4c6dee7537712782bdfddb10ebc9eccab5f6efb80815edcce0afc7ca8d4864d836d66737f250f9e2b4a50bcc768604d6415254244e177f86274a0dd2ed145659e522ce1609b5510c8311caef6f4734cd432e77ff3b860188af14565c29dc0fcff72be5279f8abaa3b5dbd232640e333f64e9c50c994d469ddff92394e8f25d2fba7"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/019_s4_post_auth_recv_auth_r3.bin",
+      "name": "019_s4_post_auth_recv_auth_r3.bin",
+      "size": 80,
+      "type": "binary",
+      "sha256": "cd574003432b454ae0d8f04a5ac8c12bc71868d6c3435d8fe9595f33d4f1eeeb",
+      "hex_preview": "f2bc8a7fe99e1f0137b2dd77ec025c6eb1f86b68bc828d50334ef22f4c3dd755ff39af83764b9fa61eef1c351de1459384b7d25890e894a967f5f4844ef9c254d6ae8558f04909bb76fe0649fffa38f3"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/020_s4_post_auth_sent_post_t1.txt",
+      "name": "020_s4_post_auth_sent_post_t1.txt",
+      "size": 10,
+      "type": "text",
+      "sha256": "e126f1dec85e7de6b6f24432180a115a86bdcbcbdbcc9a422a44fc913ad4cde8",
+      "content": "{\"type\":1}"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/021_s4_post_auth_sent_post_t2.txt",
+      "name": "021_s4_post_auth_sent_post_t2.txt",
+      "size": 10,
+      "type": "text",
+      "sha256": "b2d9a0a3071e733dceb3002a2e07088eec64dfb288d7f2284c7df7bc0cf63f36",
+      "content": "{\"type\":2}"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/022_s4_post_auth_sent_post_t3.txt",
+      "name": "022_s4_post_auth_sent_post_t3.txt",
+      "size": 10,
+      "type": "text",
+      "sha256": "909a40a34e6f466c46f9c8e23b521b9fe8ea228b7b22058c49a3bee3e9c347c4",
+      "content": "{\"type\":3}"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/023_s4_post_auth_sent_post_t5.txt",
+      "name": "023_s4_post_auth_sent_post_t5.txt",
+      "size": 10,
+      "type": "text",
+      "sha256": "3a310a06f9efe3e1265cdf9a49e66b52527c12d8b14128f4787c5119186ef35a",
+      "content": "{\"type\":5}"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/024_s4_post_auth_sent_post_t0.txt",
+      "name": "024_s4_post_auth_sent_post_t0.txt",
+      "size": 10,
+      "type": "text",
+      "sha256": "e8c4b0048517f380433ed7fdc83edbff3f82c2db7fcf392231870f93b07d88aa",
+      "content": "{\"type\":0}"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/025_s5_binary_sent_bin4.bin",
+      "name": "025_s5_binary_sent_bin4.bin",
+      "size": 4,
+      "type": "binary",
+      "sha256": "fb5e512425fc9449316ec95969ebe71e2d576dbab833d61e2a5b9330fd70ee02",
+      "hex_preview": "04000000"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/026_s5_binary_recv_bin4_r1.txt",
+      "name": "026_s5_binary_recv_bin4_r1.txt",
+      "size": 70,
+      "type": "text",
+      "sha256": "183c27fdfe3f56cff6bc0f0ad20a84761af761ad0afa2dac88576994b13c4fda",
+      "content": "{\"Type\":\"Auth\",\"Message\":\"fz8XfUGGBvylN7IW\",\"Data\":\"5aAxpFpna5QqvYMv\"}"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/027_s5_binary_recv_bin4_r2.bin",
+      "name": "027_s5_binary_recv_bin4_r2.bin",
+      "size": 385360,
+      "type": "binary",
+      "sha256": "9c603b80f813250f32d798706a5ea3b081667de9e01cd0dedd54a5c8bc703cd6",
+      "hex_preview": "44abac1420b1d80f0e44736dbaf8397969ac8aa8cbe04e9fb4e445e9f8c0bf86ad7315299fdd20d65ff2fb367ba5a08fca45d06d9c5eb8192b93f8c6875c35c2583c55595c018e9fd20f300102633251a42982cf145a142ea6099f41212c7a6e8f4b9238a81e7c11ee1a1d0886c69333026f363a28283f1aef7bf0616565b4c6dee7537712782bdfddb10ebc9eccab5f6efb80815edcce0afc7ca8d4864d836d66737f250f9e2b4a50bcc768604d6415254244e177f86274a0dd2ed145659e522ce1609b5510c8311caef6f4734cd432e77ff3b860188af14565c29dc0fcff72be5279f8abaa3b5dbd232640e333f64e9c50c994d469ddff92394e8f25d2fba7"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/028_s5_binary_recv_bin4_r3.bin",
+      "name": "028_s5_binary_recv_bin4_r3.bin",
+      "size": 80,
+      "type": "binary",
+      "sha256": "cd574003432b454ae0d8f04a5ac8c12bc71868d6c3435d8fe9595f33d4f1eeeb",
+      "hex_preview": "f2bc8a7fe99e1f0137b2dd77ec025c6eb1f86b68bc828d50334ef22f4c3dd755ff39af83764b9fa61eef1c351de1459384b7d25890e894a967f5f4844ef9c254d6ae8558f04909bb76fe0649fffa38f3"
+    },
+    {
+      "file": "/tmp/nl_analysis/output/ws_dumps/029_s5_binary_sent_bin1.bin",
+      "name": "029_s5_binary_sent_bin1.bin",
+      "size": 4,
+      "type": "binary",
+      "sha256": "67abdd721024f0ff4e0b3f4c2fc13bc5bad42d0b7851d456d88d203d15aaa450",
+      "hex_preview": "01000000"
+    }
+  ],
+  "ws_protocol_summary": {
+    "auth_response": "{\"Type\":\"Auth\",\"Message\":\"fz8XfUGGBvylN7IW\",\"Data\":\"5aAxpFpna5QqvYMv\"}",
+    "large_blob_size": 385360,
+    "large_blob_md5": "908adc35eef97b71052eccaeed5dd584",
+    "small_blob_size": 80,
+    "behavior": "Server sends same 3 messages (auth JSON + 385KB binary + 80 byte binary) on every connection regardless of client message"
+  }
+}

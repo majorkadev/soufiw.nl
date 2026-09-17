@@ -1,0 +1,10 @@
+[Phase 5] Generating final report...
+  Warning: Could not load /tmp/nl_analysis/output/ghidra_results.txt: [Errno 2] No such file or directory: '/tmp/nl_analysis/output/ghidra_results.txt'
+  Warning: Could not load /tmp/nl_analysis/output/phase4_server_probe.json: [Errno 2] No such file or directory: '/tmp/nl_analysis/output/phase4_server_probe.json'
+  Warning: Could not load /tmp/nl_analysis/output/phase4_server_probe.json: [Errno 2] No such file or directory: '/tmp/nl_analysis/output/phase4_server_probe.json'
+[Phase 5] Report written to /tmp/nl_analysis/REPORT.md
+[Phase 5] Report size: 774 lines
+
+============================================================
+FINAL REPORT: /tmp/nl_analysis/REPORT.md
+============================================================

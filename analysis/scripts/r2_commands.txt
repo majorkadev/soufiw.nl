@@ -1,0 +1,213 @@
+# Open as raw x86-32 binary at base address
+# (done via command line flags)
+
+# Suppress interactive prompts
+e scr.interactive = false
+e scr.color = 0
+e asm.lines = false
+
+# Print header
+?e ==========================================================
+?e radare2 Analysis Results for nl.bin
+?e ==========================================================
+
+# Label known addresses
+?e
+?e --- Labeling Known Addresses ---
+f GetSerial 1 0x41BC78E0
+f MakeRequest 1 0x41BC98E0
+f QueryLuaLibrary 1 0x41BC9670
+f Requestor_Instance 1 0x41BC9450
+f ws_client_send_wrap 1 0x41C16EA0
+f entry_point 1 0x412A0A00
+f error_handler 1 0x4200A118
+f SHA256_transform 1 0x41EBB510
+f mem_dispatcher 1 0x41DA0BA0
+f g_pRequestor 4 0x42518C58
+f auth_token_ptr 1 0x41BF8341
+f g_hConsole 4 0x42518C44
+
+# Analyze the non-VMP functions
+?e
+?e --- Analyzing Non-VMP Functions ---
+
+?e
+?e === Requestor::Instance (0x41BC9450) ===
+af @ 0x41BC9450
+pdf @ 0x41BC9450
+
+?e
+?e === ws_client_send_wrap (0x41C16EA0) ===
+af @ 0x41C16EA0
+pdf @ 0x41C16EA0
+
+?e
+?e === entry_point (0x412A0A00) ===
+af @ 0x412A0A00
+pdf @ 0x412A0A00
+
+?e
+?e === error_handler (0x4200A118) ===
+af @ 0x4200A118
+pdf @ 0x4200A118
+
+?e
+?e === mem_dispatcher (0x41DA0BA0) ===
+af @ 0x41DA0BA0
+pdf @ 0x41DA0BA0
+
+# Find cross-references to key functions
+?e
+?e --- Cross-References to Key Functions ---
+
+?e
+?e === XRefs to GetSerial (0x41BC78E0) ===
+axt @ 0x41BC78E0
+
+?e
+?e === XRefs to MakeRequest (0x41BC98E0) ===
+axt @ 0x41BC98E0
+
+?e
+?e === XRefs to QueryLuaLibrary (0x41BC9670) ===
+axt @ 0x41BC9670
+
+?e
+?e === XRefs to Requestor::Instance (0x41BC9450) ===
+axt @ 0x41BC9450
+
+?e
+?e === XRefs to ws_client_send_wrap (0x41C16EA0) ===
+axt @ 0x41C16EA0
+
+?e
+?e === XRefs to g_pRequestor (0x42518C58) ===
+axt @ 0x42518C58
+
+?e
+?e === XRefs to auth_token_ptr (0x41BF8341) ===
+axt @ 0x41BF8341
+
+# Search for route-like strings
+?e
+?e --- Searching for Route Strings ---
+
+?e
+?e === Searching for "/api" ===
+/ /api
+
+?e
+?e === Searching for "/auth" ===
+/ /auth
+
+?e
+?e === Searching for "/ws" ===
+/ /ws
+
+?e
+?e === Searching for "/v1" ===
+/ /v1
+
+?e
+?e === Searching for "/serial" ===
+/ /serial
+
+?e
+?e === Searching for "/lua" ===
+/ /lua
+
+?e
+?e === Searching for "/config" ===
+/ /config
+
+?e
+?e === Searching for "websocket" ===
+/ websocket
+
+?e
+?e === Searching for "NLR/" ===
+/ NLR/
+
+?e
+?e === Searching for "neverlose" ===
+/i neverlose
+
+?e
+?e === Searching for "145.239" ===
+/ 145.239
+
+?e
+?e === Searching for "application/json" ===
+/ application/json
+
+?e
+?e === Searching for "Content-Type" ===
+/ Content-Type
+
+?e
+?e === Searching for "User-Agent" ===
+/ User-Agent
+
+?e
+?e === Searching for "Authorization" ===
+/ Authorization
+
+?e
+?e === Searching for route pattern strings ===
+/ POST
+/ GET /
+
+# Read data at known addresses
+?e
+?e --- Reading Data at Known Addresses ---
+
+?e
+?e === g_pRequestor value at 0x42518C58 ===
+px 16 @ 0x42518C58
+
+?e
+?e === auth_token data at 0x41BF8341 ===
+px 64 @ 0x41BF8341
+
+?e
+?e === g_hConsole at 0x42518C44 ===
+px 16 @ 0x42518C44
+
+# Disassemble around xref sites for calling context
+# We do this by analyzing nearby code where strings are pushed
+?e
+?e --- Disassembly Around Key Call Sites ---
+
+# Analyze a broader region around Requestor::Instance to find callers
+?e
+?e === Region analysis: functions calling Requestor code (0x41BC9000-0x41BD0000) ===
+aaa @ 0x41BC9000
+pdr @ 0x41BC9450
+
+# Analyze the websocket region
+?e
+?e === Region analysis: WebSocket code (0x41C16E00-0x41C17500) ===
+af @ 0x41C16EA0
+pdr @ 0x41C16EA0
+
+# Look for JSON-related patterns
+?e
+?e === Searching for JSON patterns ===
+/ "type"
+/ "params"
+/ "hash"
+/ nlohmann
+
+# Look for port number patterns (30030 = 0x754E, 30031 = 0x754F)
+?e
+?e === Searching for port references ===
+/x 4e75
+/x 4f75
+
+# Print all flags/labels we found
+?e
+?e --- All Flags/Labels ---
+f
+
+?e
+?e === Analysis Complete ===

@@ -1,0 +1,39 @@
+---------------------------
+Ошибка
+---------------------------
+NL has been stopped due to fatal error.
+
+[0x00002F48] Technical information:
+Error code: 0xC0000005
+Address: 0x41B91136 (+ 0x8F1136)
+Attempt to write data at address: 0x78
+
+EAX = 0x2
+EBX = 0x3A1E01C8
+ECX = 0x156CA54
+EDX = 0x2
+ESI = 0x2
+EDI = 0x3A1E1250
+EBP = 0x0
+ESP = 0x156CA30
+EIP = 0x41B91136
+
+Stack Image (15 Executive DWORDs):
+0x42CD8AAB
+0x75716572
+0x616E266F
+0x425006A0
+0x43178332
+0x426004EE
+0x430CD1EF
+0x42B1C2FB
+0x42E3FD0E
+0x425CA5C9
+0x41B4CAC0
+0x41B4CAC0
+0x41DBD5F2
+0x42D2CD6E
+0x41B4B230
+---------------------------
+ОК   
+---------------------------

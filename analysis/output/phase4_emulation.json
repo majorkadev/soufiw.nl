@@ -1,0 +1,422 @@
+{
+  "function_traces": {
+    "Requestor_Instance": {
+      "function": "Requestor_Instance",
+      "address": "0x41BC9450",
+      "instructions_executed": 28,
+      "external_calls_made": [],
+      "strings_found": [],
+      "status": "completed",
+      "return_value": "0x00000000"
+    },
+    "ws_client_send_wrap": {
+      "function": "ws_client_send_wrap",
+      "address": "0x41C16EA0",
+      "instructions_executed": 50000,
+      "external_calls_made": [],
+      "strings_found": [],
+      "status": "completed",
+      "return_value": "0x00000000"
+    },
+    "entry_point": {
+      "function": "entry_point",
+      "address": "0x412A0A00",
+      "instructions_executed": 50000,
+      "external_calls_made": [],
+      "strings_found": [],
+      "status": "completed",
+      "return_value": "0x4479135C",
+      "return_string": "9\u008b\u00ec\u0083m\f\u0001u\t\u00ffu\b\u00e8\u00dd\u00ff\u00ff\u00ffY3\u00c0@]\u00c2\f"
+    },
+    "error_handler": {
+      "function": "error_handler",
+      "address": "0x4200A118",
+      "instructions_executed": 50000,
+      "external_calls_made": [],
+      "strings_found": [],
+      "status": "completed",
+      "return_value": "0x700FEFF0",
+      "return_string": "\u0080\u0005\u0093\u0019"
+    },
+    "SHA256_transform": {
+      "function": "SHA256_transform",
+      "address": "0x41EBB510",
+      "instructions_executed": 38,
+      "external_calls_made": [],
+      "strings_found": [],
+      "status": "completed",
+      "return_value": "0x00000000"
+    },
+    "mem_dispatcher": {
+      "function": "mem_dispatcher",
+      "address": "0x41DA0BA0",
+      "instructions_executed": 50000,
+      "external_calls_made": [],
+      "strings_found": [],
+      "status": "completed",
+      "return_value": "0xE3E9B4C3"
+    }
+  },
+  "memory_accesses": [
+    {
+      "address": "0x42518C54",
+      "data_name": "g_hConsole",
+      "type": "read",
+      "size": 4,
+      "function": "Requestor_Instance"
+    },
+    {
+      "address": "0x42518C58",
+      "data_name": "g_pRequestor",
+      "type": "read",
+      "size": 4,
+      "function": "Requestor_Instance"
+    },
+    {
+      "address": "0x42518C58",
+      "data_name": "g_hConsole",
+      "type": "read",
+      "size": 4,
+      "function": "Requestor_Instance"
+    }
+  ],
+  "external_calls": [],
+  "string_refs": [
+    {
+      "string": "/sfnts",
+      "va": "0x42185358",
+      "code_refs": [
+        {
+          "instruction_va": "0x41F41947",
+          "type": "push"
+        },
+        {
+          "instruction_va": "0x41F41AC9",
+          "type": "push"
+        }
+      ]
+    },
+    {
+      "string": "Sec-WebSocket-Key3",
+      "va": "0x4217AECD",
+      "code_refs": [
+        {
+          "instruction_va": "0x41BE1C90",
+          "type": "push"
+        },
+        {
+          "instruction_va": "0x41BE1D20",
+          "type": "push"
+        },
+        {
+          "instruction_va": "0x41BE1D84",
+          "type": "push"
+        }
+      ]
+    },
+    {
+      "string": "Asio transport socket shutdown timed out",
+      "va": "0x4217764A",
+      "code_refs": [
+        {
+          "instruction_va": "0x41BEEC30",
+          "type": "push"
+        }
+      ]
+    },
+    {
+      "string": "process handshake request",
+      "va": "0x42177752",
+      "code_refs": [
+        {
+          "instruction_va": "0x41C22312",
+          "type": "push"
+        }
+      ]
+    },
+    {
+      "string": "websocketpp.transport",
+      "va": "0x421777BD",
+      "code_refs": [
+        {
+          "instruction_va": "0x41C20AF0",
+          "type": "mov_eax"
+        }
+      ]
+    },
+    {
+      "string": "websocketpp.transport.asio.socket",
+      "va": "0x42177B32",
+      "code_refs": [
+        {
+          "instruction_va": "0x41C16430",
+          "type": "mov_eax"
+        }
+      ]
+    },
+    {
+      "string": "Call to log_http_result for WebSocket",
+      "va": "0x42177B54",
+      "code_refs": [
+        {
+          "instruction_va": "0x41C02355",
+          "type": "push"
+        }
+      ]
+    },
+    {
+      "string": "websocketpp.processor",
+      "va": "0x421781CA",
+      "code_refs": [
+        {
+          "instruction_va": "0x41BFAF20",
+          "type": "mov_eax"
+        }
+      ]
+    },
+    {
+      "string": "socket_select_interrupter",
+      "va": "0x42178377",
+      "code_refs": [
+        {
+          "instruction_va": "0x41C0AD72",
+          "type": "push"
+        },
+        {
+          "instruction_va": "0x41C0ADF8",
+          "type": "push"
+        },
+        {
+          "instruction_va": "0x41C0AE67",
+          "type": "push"
+        },
+        {
+          "instruction_va": "0x41C0AED1",
+          "type": "push"
+        },
+        {
+          "instruction_va": "0x41C0AF3B",
+          "type": "push"
+        }
+      ]
+    },
+    {
+      "string": "websocketpp",
+      "va": "0x42178665",
+      "code_refs": [
+        {
+          "instruction_va": "0x41C31C20",
+          "type": "mov_eax"
+        }
+      ]
+    },
+    {
+      "string": "websocketpp.transport.asio",
+      "va": "0x4217871D",
+      "code_refs": [
+        {
+          "instruction_va": "0x41BD1D40",
+          "type": "mov_eax"
+        }
+      ]
+    },
+    {
+      "string": "Server handshake response",
+      "va": "0x42179470",
+      "code_refs": [
+        {
+          "instruction_va": "0x41BE6C05",
+          "type": "push"
+        }
+      ]
+    },
+    {
+      "string": "debug_handshake",
+      "va": "0x4217994E",
+      "code_refs": [
+        {
+          "instruction_va": "0x41C12C7A",
+          "type": "mov_ecx"
+        },
+        {
+          "instruction_va": "0x41C171DA",
+          "type": "mov_ecx"
+        }
+      ]
+    },
+    {
+      "string": "connection handle_read_handshake",
+      "va": "0x4217995E",
+      "code_refs": [
+        {
+          "instruction_va": "0x41BE1875",
+          "type": "push"
+        }
+      ]
+    },
+    {
+      "string": "connection read_handshake",
+      "va": "0x4217997F",
+      "code_refs": [
+        {
+          "instruction_va": "0x41C15CAD",
+          "type": "push"
+        }
+      ]
+    },
+    {
+      "string": "socket cancel not supported",
+      "va": "0x42179CCE",
+      "code_refs": [
+        {
+          "instruction_va": "0x41C0595A",
+          "type": "push"
+        }
+      ]
+    },
+    {
+      "string": "handle_read_handshake invoked after connection was closed",
+      "va": "0x42179ECA",
+      "code_refs": [
+        {
+          "instruction_va": "0x41BE19C7",
+          "type": "push"
+        }
+      ]
+    },
+    {
+      "string": "open handshake timer expired",
+      "va": "0x42179FCB",
+      "code_refs": [
+        {
+          "instruction_va": "0x41C1ADCE",
+          "type": "push"
+        }
+      ]
+    },
+    {
+      "string": "asio close handshake timer expired",
+      "va": "0x42179FE8",
+      "code_refs": [
+        {
+          "instruction_va": "0x41C2536E",
+          "type": "push"
+        }
+      ]
+    },
+    {
+      "string": "asio socket shutdown timer cancelled",
+      "va": "0x4217A0AE",
+      "code_refs": [
+        {
+          "instruction_va": "0x41BEEBD2",
+          "type": "push"
+        }
+      ]
+    },
+    {
+      "string": "open handshake timer cancelled",
+      "va": "0x4217A0FB",
+      "code_refs": [
+        {
+          "instruction_va": "0x41C1AD4E",
+          "type": "push"
+        }
+      ]
+    },
+    {
+      "string": "asio close handshake timer cancelled",
+      "va": "0x4217A11A",
+      "code_refs": [
+        {
+          "instruction_va": "0x41C252EE",
+          "type": "push"
+        }
+      ]
+    },
+    {
+      "string": "socket cancel failed",
+      "va": "0x4217A1C8",
+      "code_refs": [
+        {
+          "instruction_va": "0x41C05971",
+          "type": "push"
+        }
+      ]
+    },
+    {
+      "string": "WebSocket Connection ",
+      "va": "0x4217BB8C",
+      "code_refs": [
+        {
+          "instruction_va": "0x41C1C25E",
+          "type": "push"
+        }
+      ]
+    },
+    {
+      "string": "open handle_open_handshake_timeout error: ",
+      "va": "0x4217BF2C",
+      "code_refs": [
+        {
+          "instruction_va": "0x41C1AE7D",
+          "type": "push"
+        },
+        {
+          "instruction_va": "0x41C1AE5D",
+          "type": "mov_ecx"
+        }
+      ]
+    },
+    {
+      "string": "asio open handle_close_handshake_timeout error: ",
+      "va": "0x4217BF57",
+      "code_refs": [
+        {
+          "instruction_va": "0x41C2541D",
+          "type": "push"
+        },
+        {
+          "instruction_va": "0x41C253FD",
+          "type": "mov_ecx"
+        }
+      ]
+    },
+    {
+      "string": "Handshake ended with HTTP error: ",
+      "va": "0x4217C011",
+      "code_refs": [
+        {
+          "instruction_va": "0x41C12177",
+          "type": "push"
+        }
+      ]
+    },
+    {
+      "string": "select/poll on SSL socket, errno: %d",
+      "va": "0x42199364",
+      "code_refs": [
+        {
+          "instruction_va": "0x41F144E4",
+          "type": "push"
+        },
+        {
+          "instruction_va": "0x41F1A0E5",
+          "type": "push"
+        }
+      ]
+    },
+    {
+      "string": "Unix socket path too long: '%s'",
+      "va": "0x421A5594",
+      "code_refs": [
+        {
+          "instruction_va": "0x41EB1F4A",
+          "type": "push"
+        }
+      ]
+    }
+  ],
+  "data_accesses": {},
+  "errors": []
+}

@@ -1,0 +1,272 @@
+[
+  {
+    "call_site": "0x413758ED",
+    "func": "0x41375780",
+    "route": "p250",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x413758ED",
+    "func": "0x41375780",
+    "route": "tec9",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x413758ED",
+    "func": "0x41375780",
+    "route": "None",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x413758ED",
+    "func": "0x41375780",
+    "route": "deagle",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x41379D2F",
+    "func": "0x41379A90",
+    "route": "defuser",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x41379D2F",
+    "func": "0x41379A90",
+    "route": "kevlar",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x413EE8C2",
+    "func": "0x413EE840",
+    "route": "%d%%",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x413EE8C2",
+    "func": "0x413EE840",
+    "route": "%.1fm",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x413EE8C2",
+    "func": "0x413EE840",
+    "route": "%d dmg",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x414B8D56",
+    "func": "0x414B8A10",
+    "route": "world",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x41586B07",
+    "func": "0x41586AB0",
+    "route": "public",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x415AD903",
+    "func": "0x415AD8A0",
+    "route": "voice_loopback",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x415AD903",
+    "func": "0x415AD8A0",
+    "route": "rate",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x415AD903",
+    "func": "0x415AD8A0",
+    "route": "opback",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x415AD903",
+    "func": "0x415AD8A0",
+    "route": "cl_cmdrate",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x415E1653",
+    "func": "0x415E15E0",
+    "route": "j=5e",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x41759E5A",
+    "func": "0x41759E10",
+    "route": "clamp",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x4176E1B4",
+    "func": "0x4176E160",
+    "route": "dulate",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x4176E1B4",
+    "func": "0x4176E160",
+    "route": "lerp",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x417B8930",
+    "func": "0x417B88D0",
+    "route": "em_time",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x417B8930",
+    "func": "0x417B88D0",
+    "route": "stamp",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x417CD2F4",
+    "func": "0x417CD2A0",
+    "route": "nse_latency",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x417CD2F4",
+    "func": "0x417CD2A0",
+    "route": "ncy",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x417D5E33",
+    "func": "0x417D5D40",
+    "route": "terface",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x417D5E33",
+    "func": "0x417D5D40",
+    "route": "typeof",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x417D5E33",
+    "func": "0x417D5D40",
+    "route": "ffi",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x417E60A3",
+    "func": "0x417E6040",
+    "route": "opcode_s",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x419E9C24",
+    "func": "0x419E9BD0",
+    "route": "reset",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x41AA30C3",
+    "func": "0x41AA3010",
+    "route": "esp",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x41AA30C3",
+    "func": "0x41AA3010",
+    "route": "scripts",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x41AA30C3",
+    "func": "0x41AA3010",
+    "route": "preview",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x41B38E63",
+    "func": "0x41B38E00",
+    "route": "get_scal5",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x41B38E63",
+    "func": "0x41B38E00",
+    "route": "+screen",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x41B38E63",
+    "func": "0x41B38E00",
+    "route": "world_to",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x41B38E63",
+    "func": "0x41B38E00",
+    "route": "load_fon$",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x41B72BF3",
+    "func": "0x41B72B40",
+    "route": "C\"mff",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x41B9936A",
+    "func": "0x41B99320",
+    "route": "name",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x41B9936A",
+    "func": "0x41B99320",
+    "route": "info",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x41CC8F6E",
+    "func": "0x41CC8F20",
+    "route": "ees",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x41CC8F6E",
+    "func": "0x41CC8F20",
+    "route": "QScent-grave",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x41CC8F6E",
+    "func": "0x41CC8F20",
+    "route": "QSorn",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x41CC8F6E",
+    "func": "0x41CC8F20",
+    "route": "QRacus",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x41CC8F6E",
+    "func": "0x41CC8F20",
+    "route": "rave",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x41CC8F6E",
+    "func": "0x41CC8F20",
+    "route": "abacus",
+    "source": "full_scan"
+  },
+  {
+    "call_site": "0x41CC8F6E",
+    "func": "0x41CC8F20",
+    "route": "acorn",
+    "source": "full_scan"
+  }
+]

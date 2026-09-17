@@ -1,0 +1,15 @@
+[package]
+name = "nl_parser"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+flatbuffers = "24.3.25"
+rmp-serde = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order"] }
+aes = "0.8"
+cbc = "0.1"
+lz4_flex = "0.11"
+anyhow = "1"
+indexmap = { version = "2", features = ["serde"] }

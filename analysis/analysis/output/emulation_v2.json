@@ -1,0 +1,419 @@
+{
+  "metadata": {
+    "binary": "/tmp/nl_analysis/nl.bin",
+    "binary_size": 55578624,
+    "elapsed_seconds": 11.2,
+    "total_instructions": 1800097
+  },
+  "captured_routes": [],
+  "captured_lua_libs": [],
+  "captured_serials": [],
+  "vtable_calls": [],
+  "vmp_direct_calls": [],
+  "function_results": {
+    "Requestor_Instance": {
+      "address": "0x41BC9450",
+      "name": "Requestor_Instance",
+      "status": "completed",
+      "instructions": 28,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0x60000000"
+    },
+    "FUN_415e96c0": {
+      "address": "0x415E96C0",
+      "name": "FUN_415e96c0",
+      "status": "completed",
+      "instructions": 29,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0x00000000"
+    },
+    "FUN_413c75c0": {
+      "address": "0x413C75C0",
+      "name": "FUN_413c75c0",
+      "status": "completed",
+      "instructions": 100000,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0x0000E170"
+    },
+    "FUN_41616c00": {
+      "address": "0x41616C00",
+      "name": "FUN_41616c00",
+      "status": "completed",
+      "instructions": 100000,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0x700FD5D8"
+    },
+    "ws_event_loop": {
+      "address": "0x41BFAAD0",
+      "name": "ws_event_loop",
+      "status": "completed",
+      "instructions": 100000,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0x00000000"
+    },
+    "ssl_tls_init": {
+      "address": "0x41BFA0B0",
+      "name": "ssl_tls_init",
+      "status": "completed",
+      "instructions": 100000,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0x60000008"
+    },
+    "msg_dispatch_1": {
+      "address": "0x41BFAD20",
+      "name": "msg_dispatch_1",
+      "status": "completed",
+      "instructions": 100000,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0x700FDFA0"
+    },
+    "msg_dispatch_2": {
+      "address": "0x41BF1E70",
+      "name": "msg_dispatch_2",
+      "status": "completed",
+      "instructions": 100000,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0x700FDFA0"
+    },
+    "caller_0x4157F5F0": {
+      "address": "0x4157F5F0",
+      "name": "caller_0x4157F5F0",
+      "status": "completed",
+      "instructions": 100000,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0x00000000"
+    },
+    "caller_0x41582C00": {
+      "address": "0x41582C00",
+      "name": "caller_0x41582C00",
+      "status": "completed",
+      "instructions": 100000,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0x700FDFD0"
+    },
+    "caller_0x415890C0": {
+      "address": "0x415890C0",
+      "name": "caller_0x415890C0",
+      "status": "completed",
+      "instructions": 100000,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0x00000040"
+    },
+    "caller_0x4160B570": {
+      "address": "0x4160B570",
+      "name": "caller_0x4160B570",
+      "status": "completed",
+      "instructions": 100000,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0x00000060"
+    },
+    "caller_0x417EBAA0": {
+      "address": "0x417EBAA0",
+      "name": "caller_0x417EBAA0",
+      "status": "completed",
+      "instructions": 100000,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0x00000001"
+    },
+    "caller_0x417F1FB0": {
+      "address": "0x417F1FB0",
+      "name": "caller_0x417F1FB0",
+      "status": "completed",
+      "instructions": 100000,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0x2F942A37"
+    },
+    "caller_0x41816160": {
+      "address": "0x41816160",
+      "name": "caller_0x41816160",
+      "status": "completed",
+      "instructions": 100000,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0x2F942A37"
+    },
+    "caller_0x41B63BB0": {
+      "address": "0x41B63BB0",
+      "name": "caller_0x41B63BB0",
+      "status": "completed",
+      "instructions": 100000,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0x00000000"
+    },
+    "caller_0x41BC5690": {
+      "address": "0x41BC5690",
+      "name": "caller_0x41BC5690",
+      "status": "completed",
+      "instructions": 100000,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0x00000001"
+    },
+    "caller_0x41BC6C10": {
+      "address": "0x41BC6C10",
+      "name": "caller_0x41BC6C10",
+      "status": "completed",
+      "instructions": 100000,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0x37993D1E"
+    },
+    "ws_client_send_wrap": {
+      "address": "0x41C16EA0",
+      "name": "ws_client_send_wrap",
+      "status": "completed",
+      "instructions": 50000,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0x600040A3"
+    },
+    "entry_point": {
+      "address": "0x412A0A00",
+      "name": "entry_point",
+      "status": "completed",
+      "instructions": 50000,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0x4479135C"
+    },
+    "error_handler": {
+      "address": "0x4200A118",
+      "name": "error_handler",
+      "status": "completed",
+      "instructions": 50000,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0x700FDFEC"
+    },
+    "SHA256_transform": {
+      "address": "0x41EBB510",
+      "name": "SHA256_transform",
+      "status": "stopped: Invalid instruction (UC_ERR_INSN_INVALID)",
+      "instructions": 40,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "stopped_at": "0x41EBB5A7",
+      "return_eax": "0x60004000"
+    },
+    "mem_dispatcher": {
+      "address": "0x41DA0BA0",
+      "name": "mem_dispatcher",
+      "status": "completed",
+      "instructions": 50000,
+      "vtable_calls": [],
+      "vmp_calls": [],
+      "return_eax": "0xE3E9B4C3"
+    }
+  },
+  "vtable_callers_scan": [
+    {
+      "ref_va": "0x41BC78B3",
+      "insn_va": "0x41BC78B1",
+      "func_start": "0x41BC6C10",
+      "type": "mov_reg_[g_pRequestor]"
+    },
+    {
+      "ref_va": "0x41BC949B",
+      "insn_va": "0x41BC949A",
+      "func_start": "0x41BC9450",
+      "type": "mov_eax_[g_pRequestor]"
+    }
+  ],
+  "instance_callers_scan": [
+    {
+      "call_va": "0x413CA180",
+      "func_start": null
+    },
+    {
+      "call_va": "0x4156E6EF",
+      "func_start": null
+    },
+    {
+      "call_va": "0x4158003D",
+      "func_start": "0x4157F5F0"
+    },
+    {
+      "call_va": "0x4158141D",
+      "func_start": "0x4157F5F0"
+    },
+    {
+      "call_va": "0x41583ED5",
+      "func_start": "0x41582C00"
+    },
+    {
+      "call_va": "0x41584D8F",
+      "func_start": null
+    },
+    {
+      "call_va": "0x4158910D",
+      "func_start": "0x415890C0"
+    },
+    {
+      "call_va": "0x415C2C2B",
+      "func_start": null
+    },
+    {
+      "call_va": "0x415C471B",
+      "func_start": null
+    },
+    {
+      "call_va": "0x415ED7FD",
+      "func_start": null
+    },
+    {
+      "call_va": "0x415ED9B3",
+      "func_start": null
+    },
+    {
+      "call_va": "0x415EDE86",
+      "func_start": null
+    },
+    {
+      "call_va": "0x415EE033",
+      "func_start": null
+    },
+    {
+      "call_va": "0x415EE13F",
+      "func_start": null
+    },
+    {
+      "call_va": "0x4160C82E",
+      "func_start": "0x4160B570"
+    },
+    {
+      "call_va": "0x4161888F",
+      "func_start": "0x41616C00"
+    },
+    {
+      "call_va": "0x41619813",
+      "func_start": null
+    },
+    {
+      "call_va": "0x4161B863",
+      "func_start": null
+    },
+    {
+      "call_va": "0x417EBE08",
+      "func_start": "0x417EBAA0"
+    },
+    {
+      "call_va": "0x417EBECA",
+      "func_start": "0x417EBAA0"
+    },
+    {
+      "call_va": "0x417F25D4",
+      "func_start": "0x417F1FB0"
+    },
+    {
+      "call_va": "0x418167A3",
+      "func_start": "0x41816160"
+    },
+    {
+      "call_va": "0x41B63D60",
+      "func_start": "0x41B63BB0"
+    },
+    {
+      "call_va": "0x41BC66F9",
+      "func_start": "0x41BC5690"
+    },
+    {
+      "call_va": "0x41BC74E1",
+      "func_start": "0x41BC6C10"
+    }
+  ],
+  "memory_accesses": [
+    {
+      "address": "0x42518C54",
+      "name": "g_pRequestor_flag",
+      "type": "read",
+      "size": 4,
+      "function": "Requestor_Instance"
+    },
+    {
+      "address": "0x42518C54",
+      "name": "g_hConsole",
+      "type": "read",
+      "size": 4,
+      "function": "Requestor_Instance"
+    },
+    {
+      "address": "0x42518C58",
+      "name": "g_pRequestor",
+      "type": "read",
+      "size": 4,
+      "function": "Requestor_Instance"
+    },
+    {
+      "address": "0x42518C58",
+      "name": "g_pRequestor_flag",
+      "type": "read",
+      "size": 4,
+      "function": "Requestor_Instance"
+    },
+    {
+      "address": "0x42518C58",
+      "name": "g_hConsole",
+      "type": "read",
+      "size": 4,
+      "function": "Requestor_Instance"
+    },
+    {
+      "address": "0x42518C94",
+      "name": "g_pRequestor",
+      "type": "read",
+      "size": 4,
+      "function": "ssl_tls_init"
+    },
+    {
+      "address": "0x42518C54",
+      "name": "g_pRequestor_flag",
+      "type": "read",
+      "size": 4,
+      "function": "caller_0x415890C0"
+    },
+    {
+      "address": "0x42518C54",
+      "name": "g_hConsole",
+      "type": "read",
+      "size": 4,
+      "function": "caller_0x415890C0"
+    },
+    {
+      "address": "0x42518C58",
+      "name": "g_pRequestor",
+      "type": "read",
+      "size": 4,
+      "function": "caller_0x415890C0"
+    },
+    {
+      "address": "0x42518C58",
+      "name": "g_pRequestor_flag",
+      "type": "read",
+      "size": 4,
+      "function": "caller_0x415890C0"
+    },
+    {
+      "address": "0x42518C58",
+      "name": "g_hConsole",
+      "type": "read",
+      "size": 4,
+      "function": "caller_0x415890C0"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,618 @@
+{
+  "http": {
+    "GET /api/config": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "149",
+        "Date": "Sun, 22 Feb 2026 05:02:05 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/config</pre>\n</body>\n</html>\n",
+      "params_sent": {},
+      "url": "http://145.239.80.134:30031/api/config"
+    },
+    "GET /api/getavatar": {
+      "status": 200,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Type": "image/png",
+        "Content-Length": "19394",
+        "ETag": "W/\"4bc2-i/qW7lwdsPe8KyskcnMMBRpxCqg\"",
+        "Date": "Sun, 22 Feb 2026 05:02:05 GMT",
+        "Connection": "close"
+      },
+      "body": "<binary 19394 bytes, sha256=d0ad12e22fe5cbfb17630e214d19ecb1936d149505efa6228c0bfa2e5880207e>",
+      "params_sent": {
+        "size": "100",
+        "token": "test_token"
+      },
+      "url": "http://145.239.80.134:30031/api/getavatar?size=100&token=test_token"
+    },
+    "GET /api/sendlog": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "150",
+        "Date": "Sun, 22 Feb 2026 05:02:05 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/sendlog</pre>\n</body>\n</html>\n",
+      "params_sent": {
+        "token": "test",
+        "a": "0",
+        "build": "1337",
+        "cont": "test",
+        "dump": "eax=00000000",
+        "cheat": "csgo"
+      },
+      "url": "http://145.239.80.134:30031/api/sendlog?token=test&a=0&build=1337&cont=test&dump=eax=00000000&cheat=csgo"
+    },
+    "GET /lua/test_lib": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "151",
+        "Date": "Sun, 22 Feb 2026 05:02:05 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /lua/test_lib</pre>\n</body>\n</html>\n",
+      "params_sent": {
+        "token": "test",
+        "cheat": "csgo",
+        "build": "1337"
+      },
+      "url": "http://145.239.80.134:30031/lua/test_lib?token=test&cheat=csgo&build=1337"
+    },
+    "GET /": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "139",
+        "Date": "Sun, 22 Feb 2026 05:02:05 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /</pre>\n</body>\n</html>\n",
+      "params_sent": {},
+      "url": "http://145.239.80.134:30031/"
+    },
+    "GET /api": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "142",
+        "Date": "Sun, 22 Feb 2026 05:02:05 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api</pre>\n</body>\n</html>\n",
+      "params_sent": {},
+      "url": "http://145.239.80.134:30031/api"
+    },
+    "GET /api/": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "143",
+        "Date": "Sun, 22 Feb 2026 05:02:05 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/</pre>\n</body>\n</html>\n",
+      "params_sent": {},
+      "url": "http://145.239.80.134:30031/api/"
+    },
+    "GET /api/auth": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "147",
+        "Date": "Sun, 22 Feb 2026 05:02:05 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/auth</pre>\n</body>\n</html>\n",
+      "params_sent": {},
+      "url": "http://145.239.80.134:30031/api/auth"
+    },
+    "GET /api/serial": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "149",
+        "Date": "Sun, 22 Feb 2026 05:02:05 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/serial</pre>\n</body>\n</html>\n",
+      "params_sent": {},
+      "url": "http://145.239.80.134:30031/api/serial"
+    },
+    "GET /api/update": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "149",
+        "Date": "Sun, 22 Feb 2026 05:02:05 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/update</pre>\n</body>\n</html>\n",
+      "params_sent": {},
+      "url": "http://145.239.80.134:30031/api/update"
+    },
+    "GET /api/version": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "150",
+        "Date": "Sun, 22 Feb 2026 05:02:05 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/version</pre>\n</body>\n</html>\n",
+      "params_sent": {},
+      "url": "http://145.239.80.134:30031/api/version"
+    },
+    "GET /api/status": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "149",
+        "Date": "Sun, 22 Feb 2026 05:02:05 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/status</pre>\n</body>\n</html>\n",
+      "params_sent": {},
+      "url": "http://145.239.80.134:30031/api/status"
+    },
+    "GET /api/user": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "147",
+        "Date": "Sun, 22 Feb 2026 05:02:05 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/user</pre>\n</body>\n</html>\n",
+      "params_sent": {
+        "token": "test"
+      },
+      "url": "http://145.239.80.134:30031/api/user?token=test"
+    },
+    "GET /api/inventory": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "152",
+        "Date": "Sun, 22 Feb 2026 05:02:05 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/inventory</pre>\n</body>\n</html>\n",
+      "params_sent": {
+        "token": "test"
+      },
+      "url": "http://145.239.80.134:30031/api/inventory?token=test"
+    },
+    "GET /api/skins": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "148",
+        "Date": "Sun, 22 Feb 2026 05:02:05 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/skins</pre>\n</body>\n</html>\n",
+      "params_sent": {
+        "token": "test"
+      },
+      "url": "http://145.239.80.134:30031/api/skins?token=test"
+    },
+    "GET /api/scripts": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "150",
+        "Date": "Sun, 22 Feb 2026 05:02:05 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/scripts</pre>\n</body>\n</html>\n",
+      "params_sent": {
+        "token": "test"
+      },
+      "url": "http://145.239.80.134:30031/api/scripts?token=test"
+    },
+    "GET /api/lua": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "146",
+        "Date": "Sun, 22 Feb 2026 05:02:06 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/lua</pre>\n</body>\n</html>\n",
+      "params_sent": {
+        "token": "test"
+      },
+      "url": "http://145.239.80.134:30031/api/lua?token=test"
+    },
+    "GET /api/cheat": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "148",
+        "Date": "Sun, 22 Feb 2026 05:02:06 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/cheat</pre>\n</body>\n</html>\n",
+      "params_sent": {
+        "token": "test",
+        "cheat": "csgo"
+      },
+      "url": "http://145.239.80.134:30031/api/cheat?token=test&cheat=csgo"
+    },
+    "GET /api/news": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "147",
+        "Date": "Sun, 22 Feb 2026 05:02:06 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/news</pre>\n</body>\n</html>\n",
+      "params_sent": {},
+      "url": "http://145.239.80.134:30031/api/news"
+    },
+    "GET /api/chat": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "147",
+        "Date": "Sun, 22 Feb 2026 05:02:06 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/chat</pre>\n</body>\n</html>\n",
+      "params_sent": {
+        "token": "test"
+      },
+      "url": "http://145.239.80.134:30031/api/chat?token=test"
+    },
+    "GET /api/notifications": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "156",
+        "Date": "Sun, 22 Feb 2026 05:02:06 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/notifications</pre>\n</body>\n</html>\n",
+      "params_sent": {
+        "token": "test"
+      },
+      "url": "http://145.239.80.134:30031/api/notifications?token=test"
+    },
+    "GET /api/market": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "149",
+        "Date": "Sun, 22 Feb 2026 05:02:06 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/market</pre>\n</body>\n</html>\n",
+      "params_sent": {
+        "token": "test"
+      },
+      "url": "http://145.239.80.134:30031/api/market?token=test"
+    },
+    "GET /api/configs": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "150",
+        "Date": "Sun, 22 Feb 2026 05:02:06 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/configs</pre>\n</body>\n</html>\n",
+      "params_sent": {
+        "token": "test",
+        "cheat": "csgo"
+      },
+      "url": "http://145.239.80.134:30031/api/configs?token=test&cheat=csgo"
+    },
+    "GET /api/friends": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "150",
+        "Date": "Sun, 22 Feb 2026 05:02:06 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/friends</pre>\n</body>\n</html>\n",
+      "params_sent": {
+        "token": "test"
+      },
+      "url": "http://145.239.80.134:30031/api/friends?token=test"
+    },
+    "GET /api/profile": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "150",
+        "Date": "Sun, 22 Feb 2026 05:02:06 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/profile</pre>\n</body>\n</html>\n",
+      "params_sent": {
+        "token": "test"
+      },
+      "url": "http://145.239.80.134:30031/api/profile?token=test"
+    },
+    "GET /lua/globals": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "150",
+        "Date": "Sun, 22 Feb 2026 05:02:06 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /lua/globals</pre>\n</body>\n</html>\n",
+      "params_sent": {
+        "token": "test",
+        "cheat": "csgo",
+        "build": "1337"
+      },
+      "url": "http://145.239.80.134:30031/lua/globals?token=test&cheat=csgo&build=1337"
+    },
+    "GET /lua/base": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "147",
+        "Date": "Sun, 22 Feb 2026 05:02:06 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /lua/base</pre>\n</body>\n</html>\n",
+      "params_sent": {
+        "token": "test",
+        "cheat": "csgo",
+        "build": "1337"
+      },
+      "url": "http://145.239.80.134:30031/lua/base?token=test&cheat=csgo&build=1337"
+    },
+    "GET /lua/ffi": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "146",
+        "Date": "Sun, 22 Feb 2026 05:02:06 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /lua/ffi</pre>\n</body>\n</html>\n",
+      "params_sent": {
+        "token": "test",
+        "cheat": "csgo",
+        "build": "1337"
+      },
+      "url": "http://145.239.80.134:30031/lua/ffi?token=test&cheat=csgo&build=1337"
+    },
+    "GET /lua/utils": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "148",
+        "Date": "Sun, 22 Feb 2026 05:02:06 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /lua/utils</pre>\n</body>\n</html>\n",
+      "params_sent": {
+        "token": "test",
+        "cheat": "csgo",
+        "build": "1337"
+      },
+      "url": "http://145.239.80.134:30031/lua/utils?token=test&cheat=csgo&build=1337"
+    },
+    "POST /api/auth": {
+      "status": 404,
+      "headers": {
+        "X-Powered-By": "Express",
+        "Content-Security-Policy": "default-src 'none'",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "148",
+        "Date": "Sun, 22 Feb 2026 05:02:06 GMT",
+        "Connection": "close"
+      },
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot POST /api/auth</pre>\n</body>\n</html>\n",
+      "params_sent": {
+        "type": 4,
+        "params": {
+          "hash": "test",
+          "hash2": "test"
+        }
+      },
+      "url": "http://145.239.80.134:30031/api/auth"
+    }
+  },
+  "wss": {
+    "initial_frames": [],
+    "message_responses": {
+      "type_4_{\"hash\": \"N9xnoBk9JkbYQ66WTtgAAAAAAAD/AP": {
+        "sent": {
+          "type": 4,
+          "params": {
+            "hash": "N9xnoBk9JkbYQ66WTtgAAAAAAAD/AP8AeaCdFAAAAAA=",
+            "hash2": "hKV0twE0V3XnSatdohvL8nJXRuIWjzJCUnQidy4ttcjiAa4N6nUi2Q=="
+          }
+        },
+        "response_type": "json",
+        "response": {
+          "Type": "Auth",
+          "Message": "fz8XfUGGBvylN7IW",
+          "Data": "5aAxpFpna5QqvYMv"
+        },
+        "size": 70
+      },
+      "type_0_{}": {
+        "sent": {
+          "type": 0,
+          "params": {}
+        },
+        "response_type": "binary",
+        "size": 385360,
+        "sha256": "9c603b80f813250f32d798706a5ea3b081667de9e01cd0dedd54a5c8bc703cd6",
+        "hex_preview": "44abac1420b1d80f0e44736dbaf8397969ac8aa8cbe04e9fb4e445e9f8c0bf86ad7315299fdd20d65ff2fb367ba5a08fca45d06d9c5eb8192b93f8c6875c35c2583c55595c018e9fd20f300102633251a42982cf145a142ea6099f41212c7a6e8f4b9238a81e7c11ee1a1d0886c69333026f363a28283f1aef7bf0616565b4c6"
+      },
+      "type_1_{}": {
+        "sent": {
+          "type": 1,
+          "params": {}
+        },
+        "response_type": "binary",
+        "size": 80,
+        "sha256": "cd574003432b454ae0d8f04a5ac8c12bc71868d6c3435d8fe9595f33d4f1eeeb",
+        "hex_preview": "f2bc8a7fe99e1f0137b2dd77ec025c6eb1f86b68bc828d50334ef22f4c3dd755ff39af83764b9fa61eef1c351de1459384b7d25890e894a967f5f4844ef9c254d6ae8558f04909bb76fe0649fffa38f3"
+      },
+      "type_2_{}": {
+        "sent": {
+          "type": 2,
+          "params": {}
+        },
+        "response_type": "timeout",
+        "response": null
+      },
+      "type_3_{}": {
+        "sent": {
+          "type": 3,
+          "params": {}
+        },
+        "response_type": "timeout",
+        "response": null
+      },
+      "type_5_{}": {
+        "sent": {
+          "type": 5,
+          "params": {}
+        },
+        "response_type": "timeout",
+        "response": null
+      },
+      "type_0_\"none\"": {
+        "sent": {
+          "type": 0
+        },
+        "response_type": "timeout",
+        "response": null
+      },
+      "type_2_{\"cheat\": \"csgo\"}": {
+        "sent": {
+          "type": 2,
+          "params": {
+            "cheat": "csgo"
+          }
+        },
+        "response_type": "timeout",
+        "response": null
+      },
+      "type_3_{\"cheat\": \"csgo\"}": {
+        "sent": {
+          "type": 3,
+          "params": {
+            "cheat": "csgo"
+          }
+        },
+        "response_type": "timeout",
+        "response": null
+      },
+      "type_5_{\"cheat\": \"csgo\"}": {
+        "sent": {
+          "type": 5,
+          "params": {
+            "cheat": "csgo"
+          }
+        },
+        "response_type": "timeout",
+        "response": null
+      }
+    }
+  },
+  "timestamp": 1771736525.6595907
+}

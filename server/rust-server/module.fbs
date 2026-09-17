@@ -1,0 +1,51 @@
+// module.bin FlatBuffers schema
+// Reverse-engineered from binary analysis
+//
+// Pipeline: module.bin → AES-128-CBC decrypt → LZ4 decompress → this FlatBuffer
+
+namespace nl;
+
+/// Log entry for script/config change history
+table LogEntry {
+    entry_id:uint32 (id: 0);       // incremental entry ID
+    timestamp:uint32 (id: 1);      // unix epoch timestamp
+    awaiting_deletion:uint32 (id: 2); // 0 or 1 flag
+    entry_type:string (id: 3);     // "Script" or "Config"
+    author:string (id: 4);         // username, e.g. "kaktusior"
+    content:string (id: 5);        // optional content string
+}
+
+/// Language definition with optional translation data
+table Language {
+    unknown_0:string (id: 0);      // always absent in observed data
+    unknown_1:string (id: 1);      // always absent in observed data
+    code:string (id: 2);           // ISO code: "en", "ru", "li", "cn", "ro"
+    unknown_3:string (id: 3);      // always absent in observed data
+    english_name:string (id: 4);   // "English", "Russian", etc.
+    native_name:string (id: 5);    // "English", "Русский", etc.
+    translations:[ubyte] (id: 6);  // JSON blob with UI translations (optional)
+}
+
+/// Inner module data (nested inside outer wrapper as [ubyte])
+table ModuleData {
+    unknown_0:uint32 (id: 0);        // always absent in observed data
+    extra_data:[ubyte] (id: 1);       // currently empty vector, purpose unknown
+    author:string (id: 2);            // module author username
+    checksum:uint32 (id: 3);          // data hash/checksum
+    config_log:[LogEntry] (id: 4);    // config change history
+    script_log:[LogEntry] (id: 5);    // script change history
+    buffer_capacity:uint32 (id: 6);   // allocated buffer size (512-byte aligned)
+    languages:[Language] (id: 7);     // supported language definitions
+    enabled:uint32 (id: 8);           // flag (observed: 0 or 1)
+    skin_data:[ubyte] (id: 9);        // MsgPack payload (skins + radio data)
+    unknown_10:uint32 (id: 10);       // always absent in observed data
+    auth_token:string (id: 11);       // 20-char identifier/token
+}
+
+/// Outer wrapper — the root type of the decompressed file
+table ModuleWrapper {
+    version:uint32 (id: 0);
+    payload:[ubyte] (id: 1, nested_flatbuffer: "ModuleData");
+}
+
+root_type ModuleWrapper;
